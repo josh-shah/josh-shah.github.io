@@ -41,17 +41,36 @@
         <h3>Bitcoin: Long run</h3>
         <p>My second interactive chart tracks the Daily Bitcoin (BTC) Price in USD from 2016-2021. .</p>
         <div class="chart" id="Chart2"> </div>
+
+        <h3>Week 2</h3>
+        <p>Task 2 involves replicating a graph from the FT, and then creating our own by modifying the chart to improve it. </p>
+
+        <h3> IMF Lending outstanding </h3>
+        <p> Credit outstanding to all members - Unedited </p>
+        <div class="chart" id="Chart3"></div>
+
+
+
+
+
+
+
+
+
     </div> 
 </body>
+
 
 
 <script>
     //Define charts:
     var myChart1 = "chartFootball3.json";
     var myChart2 = "chartcrypto1.json";
+    var myChart3 = "IMFweek2.json"
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3' ,myChart3);
 </script>
 
 </html>
