@@ -49,13 +49,9 @@
         <p> Credit outstanding to all members - Unedited </p>
         <div class="chart" id="Chart3"></div>
 
-
-
-
-
-
-
-
+        <h3>IMF Lending outstanding - Modified </h3>
+        <p>Credit outstanding to all members as a % of GDP</p>
+        <div class="chart" id="Chart4"></div>
 
     </div> 
 </body>
@@ -67,10 +63,12 @@
     var myChart1 = "chartFootball3.json";
     var myChart2 = "chartcrypto1.json";
     var myChart3 = "IMFweek2.json"
+    var myChart4 = "IMFwkkee2modified.json"
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3' ,myChart3);
+    vegaEmbed('#Chart4', myChart4);
 </script>
 
 </html>
