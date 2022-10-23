@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+        "text": "Most Expensive Football Transfers of all time",
+        "subtitle":" Ranking the Top 20 most expensive transfer fees, Source: Goal ",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"},
+    
+    "data":{"url": "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/expensivetransfers.csv"},
+
+
+    
+    "height": 400,
+    "width": 300,
+  
+    "mark": {
+      "type": "bar",
+      "color": "rgb(0,47,167"},
+  
+  "encoding": {
+       "x": {
+         "field": "Fee(€ mln)",
+         "type": "quantitative",
+         "title": "Fee(€ mln)", 
+         "scale": {"domain": [0, 240]}
+       },
+  
+        "y": {
+          "field": "Player",
+          "type": "ordinal",
+          "sort":[], 
+          "title": null
+  
+          
+  }
+  }
+  }
