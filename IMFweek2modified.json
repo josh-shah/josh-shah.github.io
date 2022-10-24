@@ -8,7 +8,7 @@
       "anchor": "start",
       "color": "black"},
   
-  "data":{"url": "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/data_IMF_creditOutstanding.csv"},
+  "data":{"url": "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/data_IMF_creditOutstanding_update.csv"},
 
   "height": 300,
   "width": 300,
