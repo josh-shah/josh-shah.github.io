@@ -27,7 +27,7 @@ body{
     padding: 20px 0px;
     text-decoration: none;
     font-size: 22px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     width: 333.3333px;
   }
@@ -81,8 +81,8 @@ h1, h3, p{
   }
 
   hr{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: transparent;
     color: black;
     width: 1000px;
