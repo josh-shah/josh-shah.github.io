@@ -47,7 +47,7 @@ body{
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
-    color:rgb(17, 17, 17);
+    color:rgb(155, 155, 155);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
