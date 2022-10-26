@@ -8,7 +8,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: black;
+    background-color: rgb(109, 218, 246);
     max-width: 1000px;
     margin:auto;
  
@@ -28,7 +28,7 @@ body{
     padding: 20px 0px;
     text-decoration: none;
     font-size: 22px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     width: 333.3333px;
   }
@@ -78,7 +78,7 @@ h1, h3, p{
     border-radius: 5px;
     width: 100px;
     margin: 10px 10px 20px 10px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     transition: background-color 1s ease;
 }
