@@ -21,7 +21,7 @@
     "y": {"field": "Goals Scored", "type": "quantitative"},
      "color": {
       "field": "Team",
-      "scale": {"range": ["red", "#034694", "#C8102E", "#4fc3f7","#DA291C","black"]}
+      "scale": {"range": ["#EF0107", "#034694", "#00B2A9", "#4fc3f7","#FBE122","black"]}
     }
   }
 }
