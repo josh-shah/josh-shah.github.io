@@ -64,9 +64,25 @@ h1, h3, p{
     border-width: 10px;
     border-style: solid;
     border-radius: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
     border-color: #002fa7;
 
     
+}
+
+#Chart5{
+  border-width: 100px;
+  border-radius: 50px;
+ 
+
+}
+#Chart6{
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-right: 120px;
+  margin-left: 120px;
+
 }
 
 .container {
