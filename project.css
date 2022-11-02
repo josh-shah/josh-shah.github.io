@@ -12,6 +12,35 @@ body{
  
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #B7B6B6;
+    width: 1000px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    width: 333.3333px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #5ae1ff;
+    color: white;
+  }
+
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
