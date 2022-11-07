@@ -90,6 +90,26 @@
         <p> This chart represents the most expensive football transfers of all time (until 2021) in € millions.
             Wikipedia allowed me to scrape data from their website, and their table covered all the details needed for my chart. </p>
 
+      <hr>  
+
+        <h3>Week 5</h3>
+        <p> Task 5 involves using the ONS API to batch download nine different series as JSON files.</p>
+        <p class="rubric-launch">The python code behind the ONS Inflation and price indices charts is available <a class="textLink" href="https://colab.research.google.com/drive/1Vh6HYeVsaB_AWh9moVWW-vaGuwmslYKg#scrollTo=FadgE1mJZIfQ"> here</a>.</p> 
+    
+        <div class="grid-container" style = "display: grid;">
+            <div class="grid-item"><div class = dashchart id = "Chart8" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart9" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart10" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart11" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart12" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart13" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart14" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart15" style = "display: block;"></div></div>
+            <div class="grid-item"><div class = dashchart id = "Chart16" style = "display: block;"></div></div>
+
+         
+        </div>
+
 
 
 
@@ -111,6 +131,15 @@
     var myChart5 = "top6goalsbar.json"
     var myChart6 = "top6goalsline.json"
     var myChart7 = "expensivetransfers.json"
+    var myChart8 = "chart8_potatoes.json"
+    var myChart9 = "chart9_womenfootwear.json"
+    var myChart10 = "chart10_veg.json"
+    var myChart11 = "chart11_tobacco.json"
+    var myChart12 = "chart12_cucumber.json"
+    var myChart13 = "chart13_kitchen.json"
+    var myChart14 = "chart14_nonseasonal.json"
+    var myChart15 = "chart15_coffee.json"
+    var myChart16 = "chart16_softdrinks.json"
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
@@ -118,7 +147,16 @@
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
-    vegaEmbed('#Chart7', myChart7)
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8',myChart8);
+    vegaEmbed('#Chart9',myChart9);
+    vegaEmbed('#Chart10',myChart10);
+    vegaEmbed('#Chart11',myChart11);
+    vegaEmbed('#Chart12',myChart12);
+    vegaEmbed('#Chart13',myChart13);
+    vegaEmbed('#Chart14',myChart14);
+    vegaEmbed('#Chart15',myChart15);
+    vegaEmbed('#Chart16',myChart16);
 </script>
 
 </html>
