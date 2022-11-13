@@ -8,81 +8,124 @@
 
 /* Set the background color for my page: */
 body{
-    background-color:  rgb(109, 218, 246);
-    max-width: 1000px;
+    background-color: #081521;
+    max-width: 95%;
     margin:auto;
+
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s; 
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #B7B6B6;
-    width: 1000px;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 0px;
-    text-decoration: none;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-    width: 333.3333px;
-  }
-  
-  .topnav a:hover {
-    background-color: white;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #5fe5fd;
-    color: white;
-  }
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #081521;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(155, 155, 155);
+}
+
+.bodyText {
+  color: white;
+  margin-bottom: -22px;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.pagecontainer {
+  display: grid;
+
+}
+
+.hcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  border: 3px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: rgb(19, 143, 242);
+  font-size: 45px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Name and unit code */
+h2 {
+  color: white;
+  font-size: 25px;
+  margin-top: -35px;
+  font-weight: lighter;
+}
+
+h3 {
+  color: rgb(255, 40, 0);
+  color: rgb(19, 143, 242);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p{
+  color: rgb(19, 143, 242); 
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.bcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;;
+  gap: 30px 30px;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: white;
+
+  padding: 30px;
+  border-radius: 25px;
+}
+
   
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
-h1, h3, p{
-    color:rgb(17, 17, 17);
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-    
-.myWeek1{
-    margin: auto;
-    background-color: rgb(115, 227, 247);
-}
-
 
 /* Set the apperance of the class, chart */
-.chart{
-    background-color: #002fa7;
-    width:365px;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 10px;
-    margin-left: 120px;
-    margin-right: 120px;
-    border-color: #002fa7;
-
-    
-}
-
-#Chart5{
-  border-width: 100px;
-  border-radius: 50px;
- 
-
-}
-#Chart6{
-  margin-top: 15px;
-  margin-bottom: 30px;
-  margin-right: 120px;
-  margin-left: 120px;
-
+.chart {
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+  transition: border-radius 400ms, flex-grow 1000ms;
+  width: 45%;
+  min-width: 350px;
+  transition: transform 1000ms;
+  
 }
 
 .container {
@@ -108,9 +151,100 @@ h1, h3, p{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 150%;
 }
 
+
+/* Buttons on navigation bar, taken from https://freefrontend.com/css-buttons/, https://codepen.io/hexagoncircle/pen/wvBmvOG */
+
+:root {
+  --border-size: 0.125rem;
+  --duration: 250ms;
+  --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --font-family: monospace;
+  --color-text: black;
+  --color-primary: white;
+  --color-secondary: black;
+  --color-tertiary: rgb(17, 143, 242);
+  --space: 1rem;
+  --border-color: #081521;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.multi-button {
+  display: flex;
+  width: 100%;
+}
+
+.multi-button button {
+  flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  padding:
+    calc(var(--space) / 1.125)
+    var(--space)
+    var(--space);
+  border: var(--border-size) solid var(--border-color);
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  text-transform: lowercase;
+  transition: flex-grow var(--duration) var(--ease);
+}
+
+.multi-button button + button {
+  border-left: var(--border-size) solid var(--border-color);
+  margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+  flex-grow: 2;
+  color: white;
+  outline: none;
+  text-shadow: none;
+  background-color: var(--color-secondary);
+}
+
+.multi-button button:focus {
+  outline: var(--border-size) solid var(--color-primary);
+  outline-offset: calc(var(--border-size) * -3);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+  flex-grow: 1;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+  transform: translateY(var(--border-size));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+
+
+
+
+
+
+
+}
 
 
 

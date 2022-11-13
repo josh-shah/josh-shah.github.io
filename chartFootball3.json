@@ -24,8 +24,8 @@
       "type":"bar",
       "color":"rgba(0,67,167, 1)"},
   
-    "height":300,
-    "width":150,
+    "height": 300,
+    "width": "container",
     
     "encoding": {
   

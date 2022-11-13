@@ -14,12 +14,12 @@
 
 
    
-    "height": 400,
-    "width": 300,
+    "height": 300,
+    "width": "container",
  
     "mark": {
       "type": "bar",
-      "color": "rgb(0,47,167"},
+      "color": "#d4af37"},
  
   "encoding": {
        "x": {
@@ -36,6 +36,9 @@
           "title": null
  
          
-  }
+  },
+  "tooltip": [
+    {"field": "Fee(€ mln)", "type": "quantitative", "title": "Fee(€ mln)"}
+    ]
   }
   }
