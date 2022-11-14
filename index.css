@@ -8,49 +8,92 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(109, 218, 246);
-    max-width: 1000px;
+    background-color: #081521;
+    max-width: 95%;
     margin:auto;
- 
+
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s; 
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #B7B6B6;
-    width: 1000px;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 0px;
-    text-decoration: none;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-    width: 333.3333px;
-  }
-  
-  .topnav a:hover {
-    background-color: white;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #9F9F9F;
-    color: white;
-  }
-  
-
-
-/* Choose the appearance of the tags, h1, h3 and p: */
-h1, h3, p{
-    color:rgb(6, 6, 6);
-    font-family: 'Montserrat', cursive;
-    text-align: center;
+::-webkit-scrollbar {
+  width: 6px;
 }
+::-webkit-scrollbar-track {
+  background: #081521;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(155, 155, 155);
+}
+
+.bodyText {
+  color: white;
+  margin-bottom: -22px;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.pagecontainer {
+  display: grid;
+
+}
+
+.hcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  border: 3px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: rgb(19, 143, 242);
+  font-size: 45px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Name and unit code */
+h2 {
+  color: white;
+  font-size: 25px;
+  margin-top: -35px;
+  font-weight: lighter;
+}
+
+h3 {
+  color: rgb(255, 40, 0);
+  color: rgb(19, 143, 242);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p{
+  color: rgb(19, 143, 242); 
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
     
 .container{
     background-color: transparent;
