@@ -1,22 +1,22 @@
-	Team	City	Region	Stadium	Capacity	Latitude	Longitude	Country	
-ArsenalÊ	Arsenal	LondonÊ	South East (England)	Emirates StadiumÊ	60361	51.555	-0.108611	England	
-Aston VillaÊ	Aston Villa	BirminghamÊ	West Midlands (England)	Villa ParkÊ	42785	52.509167	-1.884722	England	
-Bournemouth	Bournemouth	Bournemouth	South East (England)	Vitality Stadium	"11,379"	50.737175	-1.867873	England	
-Brentford	Brentford	LondonÊ	South East (England)	Brentford Community Stadium	17250	51.490715	Ê-0.289048	England	
-Brighton & Hove AlbionÊ	Brighton	BrightonÊ	South East (England)	American Express Community StadiumÊ	22374	50.861822	-0.083278	England	
-ChelseaÊ	Chelsea	LondonÊ	South East (England)	Stamford BridgeÊ	42449	51.481667	-0.191111	England	
-Crystal PalaceÊ	Crystal Palace	LondonÊ	South East (England)	Selhurst ParkÊ	26309	51.398333	-0.085556	England	
-EvertonÊ	Everton	LiverpoolÊ	North West (England)	Goodison ParkÊ	40157	53.438889	-2.966389	England	
-FulhamÊ	Fulham	LondonÊ	South East (England)	Craven CottageÊ	25700	51.475	-0.221667	England	
-Leeds UnitedÊ	Leeds	LeedsÊ	Yorkshire and The Humber	Elland RoadÊ	39460	53.777778	-1.572222	England	
-Leicester CityÊ	Leicester	LeicesterÊ	East Midlands (England)	King Power StadiumÊ	32500	52.620278	-1.142222	England	
-LiverpoolÊ	Liverpool	LiverpoolÊ	North West (England)	AnfieldÊ	45276	53.430819	-2.960828	England	
-Manchester CityÊ	Man City	ManchesterÊ	North West (England)	Etihad Stadium	47405	53.482989	-2.200292	England	
-Manchester UnitedÊ	Man United	ManchesterÊ	North West (England)	Old TraffordÊ	75811	53.463056	-2.291389	England	
-Newcastle UnitedÊ	Newcastle	Newcastle upon TyneÊ	North East (England)	St James' Park	52409	54.975556	-1.621667	England	
-Nottingham ForestÊ	Nott'm Forest	NottinghamÊ	East Midlands (England)	City GroundÊ	30576	52.94	-1.132778	England	
-SouthamptonÊ	Southampton	SouthamptonÊ	South East (England)	St Mary's StadiumÊ	32689	50.905833	-1.391111	England	
-Tottenham HotspurÊ	Tottenham	LondonÊ	South East (England)	Tottenham Hotspur Stadium	36230	51.603333	-0.065833	England	
-West Ham UnitedÊ	West Ham	LondonÊ	South East (England)	London Stadium	66000	51.5387	-0.0166	England	
-Wolverhampton	Wolves	Wolverhampton	West Midlands (England)	Molineux	32050	52.590382	-2.130924	England	
-									
+ï»¿Team,City,Region,Stadium,Capacity,Latitude,Longitude,Country,
+Arsenal,LondonÂ ,South East (England),Emirates StadiumÂ ,60361,51.555,-0.108611,England,
+Aston Villa,BirminghamÂ ,West Midlands (England),Villa ParkÂ ,42785,52.509167,-1.884722,England,
+Bournemouth,Bournemouth,South East (England),Vitality Stadium,"11,379",50.737175,-1.867873,England,
+Brentford,LondonÂ ,South East (England),Brentford Community Stadium,17250,51.490715,Â -0.289048,England,
+Brighton,BrightonÂ ,South East (England),American Express Community StadiumÂ ,22374,50.861822,-0.083278,England,
+Chelsea,LondonÂ ,South East (England),Stamford BridgeÂ ,42449,51.481667,-0.191111,England,
+Crystal Palace,LondonÂ ,South East (England),Selhurst ParkÂ ,26309,51.398333,-0.085556,England,
+Everton,LiverpoolÂ ,North West (England),Goodison ParkÂ ,40157,53.438889,-2.966389,England,
+Fulham,LondonÂ ,South East (England),Craven CottageÂ ,25700,51.475,-0.221667,England,
+Leeds,LeedsÂ ,Yorkshire and The Humber,Elland RoadÂ ,39460,53.777778,-1.572222,England,
+Leicester,LeicesterÂ ,East Midlands (England),King Power StadiumÂ ,32500,52.620278,-1.142222,England,
+Liverpool,LiverpoolÂ ,North West (England),AnfieldÂ ,45276,53.430819,-2.960828,England,
+Man City,ManchesterÂ ,North West (England),Etihad Stadium,47405,53.482989,-2.200292,England,
+Man United,ManchesterÂ ,North West (England),Old TraffordÂ ,75811,53.463056,-2.291389,England,
+Newcastle,Newcastle upon TyneÂ ,North East (England),St James' Park,52409,54.975556,-1.621667,England,
+Nott'm Forest,NottinghamÂ ,East Midlands (England),City GroundÂ ,30576,52.94,-1.132778,England,
+Southampton,SouthamptonÂ ,South East (England),St Mary's StadiumÂ ,32689,50.905833,-1.391111,England,
+Tottenham,LondonÂ ,South East (England),Tottenham Hotspur Stadium,36230,51.603333,-0.065833,England,
+West Ham,LondonÂ ,South East (England),London Stadium,66000,51.5387,-0.0166,England,
+Wolves,Wolverhampton,West Midlands (England),Molineux,32050,52.590382,-2.130924,England,
+,,,,,,,,
