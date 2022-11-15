@@ -1,0 +1,441 @@
+﻿,Season,Pos,Team,Pts
+0,2000-01,1,Manchester United,80
+1,2000-01,2,Arsenal,70
+2,2000-01,3,Liverpool,69
+3,2000-01,4,Leeds United,68
+4,2000-01,5,Ipswich Town,66
+5,2000-01,6,Chelsea,61
+6,2000-01,7,Sunderland,57
+7,2000-01,8,Aston Villa,54
+8,2000-01,9,Charlton Athletic,52
+9,2000-01,10,Southampton,52
+10,2000-01,11,Newcastle United,51
+11,2000-01,12,Tottenham Hotspur,49
+12,2000-01,13,Leicester City,48
+13,2000-01,14,Middlesbrough,42
+14,2000-01,15,West Ham United,42
+15,2000-01,16,Everton,42
+16,2000-01,17,Derby County,42
+17,2000-01,18,Manchester City,34
+18,2000-01,19,Coventry City,34
+19,2000-01,20,Bradford City,26
+20,2001-02,1,Arsenal,87
+21,2001-02,2,Liverpool,80
+22,2001-02,3,Manchester United,77
+23,2001-02,4,Newcastle United,71
+24,2001-02,5,Leeds United,66
+25,2001-02,6,Chelsea,64
+26,2001-02,7,West Ham United,53
+27,2001-02,8,Aston Villa,50
+28,2001-02,9,Tottenham Hotspur,50
+29,2001-02,10,Blackburn Rovers,46
+30,2001-02,11,Southampton,45
+31,2001-02,12,Middlesbrough,45
+32,2001-02,13,Fulham,44
+33,2001-02,14,Charlton Athletic,44
+34,2001-02,15,Everton,43
+35,2001-02,16,Bolton Wanderers,40
+36,2001-02,17,Sunderland,40
+37,2001-02,18,Ipswich Town,36
+38,2001-02,19,Derby County,30
+39,2001-02,20,Leicester City,28
+40,2002-03,1,Manchester United,83
+41,2002-03,2,Arsenal,78
+42,2002-03,3,Newcastle United,69
+43,2002-03,4,Chelsea,67
+44,2002-03,5,Liverpool,64
+45,2002-03,6,Blackburn Rovers,60
+46,2002-03,7,Everton,59
+47,2002-03,8,Southampton,52
+48,2002-03,9,Manchester City,51
+49,2002-03,10,Tottenham Hotspur,50
+50,2002-03,11,Middlesbrough,49
+51,2002-03,12,Charlton Athletic,49
+52,2002-03,13,Birmingham City,48
+53,2002-03,14,Fulham,48
+54,2002-03,15,Leeds United,47
+55,2002-03,16,Aston Villa,45
+56,2002-03,17,Bolton Wanderers,44
+57,2002-03,18,West Ham United,42
+58,2002-03,19,West Bromwich Albion,26
+59,2002-03,20,Sunderland,19
+60,2003-04,1,Arsenal,90
+61,2003-04,2,Chelsea,79
+62,2003-04,3,Manchester United,75
+63,2003-04,4,Liverpool,60
+64,2003-04,5,Newcastle United,56
+65,2003-04,6,Aston Villa,56
+66,2003-04,7,Charlton Athletic,53
+67,2003-04,8,Bolton Wanderers,53
+68,2003-04,9,Fulham,52
+69,2003-04,10,Birmingham City,50
+70,2003-04,11,Middlesbrough,48
+71,2003-04,12,Southampton,47
+72,2003-04,13,Portsmouth,45
+73,2003-04,14,Tottenham Hotspur,45
+74,2003-04,15,Blackburn Rovers,44
+75,2003-04,16,Manchester City,41
+76,2003-04,17,Everton,39
+77,2003-04,18,Leicester City,33
+78,2003-04,19,Leeds United,33
+79,2003-04,20,Wolverhampton Wanderers,33
+80,2004-05,1,Chelsea,95
+81,2004-05,2,Arsenal,83
+82,2004-05,3,Manchester United,77
+83,2004-05,4,Everton,61
+84,2004-05,5,Liverpool,58
+85,2004-05,6,Bolton Wanderers,58
+86,2004-05,7,Middlesbrough,55
+87,2004-05,8,Manchester City,52
+88,2004-05,9,Tottenham Hotspur,52
+89,2004-05,10,Aston Villa,47
+90,2004-05,11,Charlton Athletic,46
+91,2004-05,12,Birmingham City,45
+92,2004-05,13,Fulham,44
+93,2004-05,14,Newcastle United,44
+94,2004-05,15,Blackburn Rovers,42
+95,2004-05,16,Portsmouth,39
+96,2004-05,17,West Bromwich Albion,34
+97,2004-05,18,Crystal Palace,33
+98,2004-05,19,Norwich City,33
+99,2004-05,20,Southampton,32
+100,2005-06,1,Chelsea,91
+101,2005-06,2,Manchester United,83
+102,2005-06,3,Liverpool,82
+103,2005-06,4,Arsenal,67
+104,2005-06,5,Tottenham Hotspur,65
+105,2005-06,6,Blackburn Rovers,63
+106,2005-06,7,Newcastle United,58
+107,2005-06,8,Bolton Wanderers,56
+108,2005-06,9,West Ham United,55
+109,2005-06,10,Wigan Athletic,51
+110,2005-06,11,Everton,50
+111,2005-06,12,Fulham,48
+112,2005-06,13,Charlton Athletic,47
+113,2005-06,14,Middlesbrough,45
+114,2005-06,15,Manchester City,43
+115,2005-06,16,Aston Villa,42
+116,2005-06,17,Portsmouth,38
+117,2005-06,18,Birmingham City,34
+118,2005-06,19,West Bromwich Albion,30
+119,2005-06,20,Sunderland,15
+120,2006-07,1,Manchester United,89
+121,2006-07,2,Chelsea,83
+122,2006-07,3,Liverpool,68
+123,2006-07,4,Arsenal,68
+124,2006-07,5,Tottenham Hotspur,60
+125,2006-07,6,Everton,58
+126,2006-07,7,Bolton Wanderers,56
+127,2006-07,8,Reading,55
+128,2006-07,9,Portsmouth,54
+129,2006-07,10,Blackburn Rovers,52
+130,2006-07,11,Aston Villa,50
+131,2006-07,12,Middlesbrough,46
+132,2006-07,13,Newcastle United,43
+133,2006-07,14,Manchester City,42
+134,2006-07,15,West Ham United,41
+135,2006-07,16,Fulham,39
+136,2006-07,17,Wigan Athletic,38
+137,2006-07,18,Sheffield United,38
+138,2006-07,19,Charlton Athletic,34
+139,2006-07,20,Watford,28
+140,2007-08,1,Manchester United,87
+141,2007-08,2,Chelsea,85
+142,2007-08,3,Arsenal,83
+143,2007-08,4,Liverpool,76
+144,2007-08,5,Everton,65
+145,2007-08,6,Aston Villa,60
+146,2007-08,7,Blackburn Rovers,58
+147,2007-08,8,Portsmouth,57
+148,2007-08,9,Manchester City,55
+149,2007-08,10,West Ham United,49
+150,2007-08,11,Tottenham Hotspur,46
+151,2007-08,12,Newcastle United,43
+152,2007-08,13,Middlesbrough,42
+153,2007-08,14,Wigan Athletic,40
+154,2007-08,15,Sunderland,39
+155,2007-08,16,Bolton Wanderers,37
+156,2007-08,17,Fulham,36
+157,2007-08,18,Reading,36
+158,2007-08,19,Birmingham City,35
+159,2007-08,20,Derby County,11
+160,2008-09,1,Manchester United,90
+161,2008-09,2,Liverpool,86
+162,2008-09,3,Chelsea,83
+163,2008-09,4,Arsenal,72
+164,2008-09,5,Everton,63
+165,2008-09,6,Aston Villa,62
+166,2008-09,7,Fulham,53
+167,2008-09,8,Tottenham Hotspur,51
+168,2008-09,9,West Ham United,51
+169,2008-09,10,Manchester City,50
+170,2008-09,11,Wigan Athletic,45
+171,2008-09,12,Stoke City,45
+172,2008-09,13,Bolton Wanderers,41
+173,2008-09,14,Portsmouth,41
+174,2008-09,15,Blackburn Rovers,41
+175,2008-09,16,Sunderland,36
+176,2008-09,17,Hull City,35
+177,2008-09,18,Newcastle United,34
+178,2008-09,19,Middlesbrough,32
+179,2008-09,20,West Bromwich Albion,32
+180,2009-10,1,Chelsea,86
+181,2009-10,2,Manchester United,85
+182,2009-10,3,Arsenal,75
+183,2009-10,4,Tottenham Hotspur,70
+184,2009-10,5,Manchester City,67
+185,2009-10,6,Aston Villa,64
+186,2009-10,7,Liverpool,63
+187,2009-10,8,Everton,61
+188,2009-10,9,Birmingham City,50
+189,2009-10,10,Blackburn Rovers,50
+190,2009-10,11,Stoke City,47
+191,2009-10,12,Fulham,46
+192,2009-10,13,Sunderland,44
+193,2009-10,14,Bolton Wanderers,39
+194,2009-10,15,Wolverhampton Wanderers,38
+195,2009-10,16,Wigan Athletic,36
+196,2009-10,17,West Ham United,35
+197,2009-10,18,Burnley,30
+198,2009-10,19,Hull City,30
+199,2009-10,20,Portsmouth,19
+200,2010-11,1,Manchester United,80
+201,2010-11,2,Chelsea,71
+202,2010-11,3,Manchester City,71
+203,2010-11,4,Arsenal,68
+204,2010-11,5,Tottenham Hotspur,62
+205,2010-11,6,Liverpool,58
+206,2010-11,7,Everton,54
+207,2010-11,8,Fulham,49
+208,2010-11,9,Aston Villa,48
+209,2010-11,10,Sunderland,47
+210,2010-11,11,West Bromwich Albion,47
+211,2010-11,12,Newcastle United,46
+212,2010-11,13,Stoke City,46
+213,2010-11,14,Bolton Wanderers,46
+214,2010-11,15,Blackburn Rovers,43
+215,2010-11,16,Wigan Athletic,42
+216,2010-11,17,Wolverhampton Wanderers,40
+217,2010-11,18,Birmingham City,39
+218,2010-11,19,Blackpool,39
+219,2010-11,20,West Ham United,33
+220,2011-12,1,Manchester City,89
+221,2011-12,2,Manchester United,89
+222,2011-12,3,Arsenal,70
+223,2011-12,4,Tottenham Hotspur,69
+224,2011-12,5,Newcastle United,65
+225,2011-12,6,Chelsea,64
+226,2011-12,7,Everton,56
+227,2011-12,8,Liverpool,52
+228,2011-12,9,Fulham,52
+229,2011-12,10,West Bromwich Albion,47
+230,2011-12,11,Swansea City,47
+231,2011-12,12,Norwich City,47
+232,2011-12,13,Sunderland,45
+233,2011-12,14,Stoke City,45
+234,2011-12,15,Wigan Athletic,43
+235,2011-12,16,Aston Villa,38
+236,2011-12,17,Queens Park Rangers,37
+237,2011-12,18,Bolton Wanderers,36
+238,2011-12,19,Blackburn Rovers,31
+239,2011-12,20,Wolverhampton Wanderers,25
+240,2012-13,1,Manchester United,89
+241,2012-13,2,Manchester City,78
+242,2012-13,3,Chelsea,75
+243,2012-13,4,Arsenal,73
+244,2012-13,5,Tottenham Hotspur,72
+245,2012-13,6,Everton,63
+246,2012-13,7,Liverpool,61
+247,2012-13,8,West Bromwich Albion,49
+248,2012-13,9,Swansea City,46
+249,2012-13,10,West Ham United,46
+250,2012-13,11,Norwich City,44
+251,2012-13,12,Fulham,43
+252,2012-13,13,Stoke City,42
+253,2012-13,14,Southampton,41
+254,2012-13,15,Aston Villa,41
+255,2012-13,16,Newcastle United,41
+256,2012-13,17,Sunderland,39
+257,2012-13,18,Wigan Athletic,36
+258,2012-13,19,Reading,28
+259,2012-13,20,Queens Park Rangers,25
+260,2013-14,1,Manchester City,86
+261,2013-14,2,Liverpool,84
+262,2013-14,3,Chelsea,82
+263,2013-14,4,Arsenal,79
+264,2013-14,5,Everton,72
+265,2013-14,6,Tottenham Hotspur,69
+266,2013-14,7,Manchester United,64
+267,2013-14,8,Southampton,56
+268,2013-14,9,Stoke City,50
+269,2013-14,10,Newcastle United,49
+270,2013-14,11,Crystal Palace,45
+271,2013-14,12,Swansea City,42
+272,2013-14,13,West Ham United,40
+273,2013-14,14,Sunderland,38
+274,2013-14,15,Aston Villa,38
+275,2013-14,16,Hull City,37
+276,2013-14,17,West Bromwich Albion,36
+277,2013-14,18,Norwich City,33
+278,2013-14,19,Fulham,32
+279,2013-14,20,Cardiff City,30
+280,2014-15,1,Chelsea,87
+281,2014-15,2,Manchester City,79
+282,2014-15,3,Arsenal,75
+283,2014-15,4,Manchester United,70
+284,2014-15,5,Tottenham Hotspur,64
+285,2014-15,6,Liverpool,62
+286,2014-15,7,Southampton,60
+287,2014-15,8,Swansea City,56
+288,2014-15,9,Stoke City,54
+289,2014-15,10,Crystal Palace,48
+290,2014-15,11,Everton,47
+291,2014-15,12,West Ham United,47
+292,2014-15,13,West Bromwich Albion,44
+293,2014-15,14,Leicester City,41
+294,2014-15,15,Newcastle United,39
+295,2014-15,16,Sunderland,38
+296,2014-15,17,Aston Villa,38
+297,2014-15,18,Hull City,35
+298,2014-15,19,Burnley,33
+299,2014-15,20,Queens Park Rangers,30
+300,2015-16,1,Leicester City,81
+301,2015-16,2,Arsenal,71
+302,2015-16,3,Tottenham Hotspur,70
+303,2015-16,4,Manchester City,66
+304,2015-16,5,Manchester United,66
+305,2015-16,6,Southampton,63
+306,2015-16,7,West Ham United,62
+307,2015-16,8,Liverpool,60
+308,2015-16,9,Stoke City,51
+309,2015-16,10,Chelsea,50
+310,2015-16,11,Everton,47
+311,2015-16,12,Swansea City,47
+312,2015-16,13,Watford,45
+313,2015-16,14,West Bromwich Albion,43
+314,2015-16,15,Crystal Palace,42
+315,2015-16,16,Bournemouth,42
+316,2015-16,17,Sunderland,39
+317,2015-16,18,Newcastle United,37
+318,2015-16,19,Norwich City,34
+319,2015-16,20,Aston Villa,17
+320,2016-17,1,Chelsea,93
+321,2016-17,2,Tottenham Hotspur,86
+322,2016-17,3,Manchester City,78
+323,2016-17,4,Liverpool,76
+324,2016-17,5,Arsenal,75
+325,2016-17,6,Manchester United,69
+326,2016-17,7,Everton,61
+327,2016-17,8,Southampton,46
+328,2016-17,9,Bournemouth,46
+329,2016-17,10,West Bromwich Albion,45
+330,2016-17,11,West Ham United,45
+331,2016-17,12,Leicester City,44
+332,2016-17,13,Stoke City,44
+333,2016-17,14,Crystal Palace,41
+334,2016-17,15,Swansea City,41
+335,2016-17,16,Burnley,40
+336,2016-17,17,Watford,40
+337,2016-17,18,Hull City,34
+338,2016-17,19,Middlesbrough,28
+339,2016-17,20,Sunderland,24
+340,2017-18,1,Manchester City,100
+341,2017-18,2,Manchester United,81
+342,2017-18,3,Tottenham Hotspur,77
+343,2017-18,4,Liverpool,75
+344,2017-18,5,Chelsea,70
+345,2017-18,6,Arsenal,63
+346,2017-18,7,Burnley,54
+347,2017-18,8,Everton,49
+348,2017-18,9,Leicester City,47
+349,2017-18,10,Newcastle United,44
+350,2017-18,11,Crystal Palace,44
+351,2017-18,12,Bournemouth,44
+352,2017-18,13,West Ham United,42
+353,2017-18,14,Watford,41
+354,2017-18,15,Brighton & Hove Albion,40
+355,2017-18,16,Huddersfield Town,37
+356,2017-18,17,Southampton,36
+357,2017-18,18,Swansea City,33
+358,2017-18,19,Stoke City,33
+359,2017-18,20,West Bromwich Albion,31
+360,2018-19,1,Manchester City,98
+361,2018-19,2,Liverpool,97
+362,2018-19,3,Chelsea,72
+363,2018-19,4,Tottenham Hotspur,71
+364,2018-19,5,Arsenal,70
+365,2018-19,6,Manchester United,66
+366,2018-19,7,Wolverhampton Wanderers,57
+367,2018-19,8,Everton,54
+368,2018-19,9,Leicester City,52
+369,2018-19,10,West Ham United,52
+370,2018-19,11,Watford,50
+371,2018-19,12,Crystal Palace,49
+372,2018-19,13,Newcastle United,45
+373,2018-19,14,Bournemouth,45
+374,2018-19,15,Burnley,40
+375,2018-19,16,Southampton,39
+376,2018-19,17,Brighton & Hove Albion,36
+377,2018-19,18,Cardiff City,34
+378,2018-19,19,Fulham,26
+379,2018-19,20,Huddersfield Town,16
+380,2019-20,1,Liverpool,99
+381,2019-20,2,Manchester City,81
+382,2019-20,3,Manchester United,66
+383,2019-20,4,Chelsea,66
+384,2019-20,5,Leicester City,62
+385,2019-20,6,Tottenham Hotspur,59
+386,2019-20,7,Wolverhampton Wanderers,59
+387,2019-20,8,Arsenal,56
+388,2019-20,9,Sheffield United,54
+389,2019-20,10,Burnley,54
+390,2019-20,11,Southampton,52
+391,2019-20,12,Everton,49
+392,2019-20,13,Newcastle United,44
+393,2019-20,14,Crystal Palace,43
+394,2019-20,15,Brighton & Hove Albion,41
+395,2019-20,16,West Ham United,39
+396,2019-20,17,Aston Villa,35
+397,2019-20,18,Bournemouth,34
+398,2019-20,19,Watford,34
+399,2019-20,20,Norwich City,21
+400,2020-21,1,Manchester City,86
+401,2020-21,2,Manchester United,74
+402,2020-21,3,Liverpool,69
+403,2020-21,4,Chelsea,67
+404,2020-21,5,Leicester City,66
+405,2020-21,6,West Ham United,65
+406,2020-21,7,Tottenham Hotspur,62
+407,2020-21,8,Arsenal,61
+408,2020-21,9,Leeds United,59
+409,2020-21,10,Everton,59
+410,2020-21,11,Aston Villa,55
+411,2020-21,12,Newcastle United,45
+412,2020-21,13,Wolverhampton Wanderers,45
+413,2020-21,14,Crystal Palace,44
+414,2020-21,15,Southampton,43
+415,2020-21,16,Brighton & Hove Albion,41
+416,2020-21,17,Burnley,39
+417,2020-21,18,Fulham,28
+418,2020-21,19,West Bromwich Albion,26
+419,2020-21,20,Sheffield United,23
+420,2021-22,1,Manchester City,93
+421,2021-22,2,Liverpool,92
+422,2021-22,3,Chelsea,74
+423,2021-22,4,Tottenham Hotspur,71
+424,2021-22,5,Arsenal,69
+425,2021-22,6,Manchester United,58
+426,2021-22,7,West Ham United,56
+427,2021-22,8,Leicester City,52
+428,2021-22,9,Brighton & Hove Albion,51
+429,2021-22,10,Wolverhampton Wanderers,51
+430,2021-22,11,Newcastle United,49
+431,2021-22,12,Crystal Palace,48
+432,2021-22,13,Brentford,46
+433,2021-22,14,Aston Villa,45
+434,2021-22,15,Southampton,40
+435,2021-22,16,Everton,39
+436,2021-22,17,Leeds United,38
+437,2021-22,18,Burnley,35
+438,2021-22,19,Watford,23
+439,2021-22,20,Norwich City,22
