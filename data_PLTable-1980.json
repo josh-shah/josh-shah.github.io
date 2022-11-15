@@ -1,0 +1,14 @@
+{
+    "query": {
+        "apikey": "5ec7cff0-63ba-11ed-baa5-49417d4017c3"
+    },
+    "data": {
+        "season_id": 1980,
+        "name": "21/22",
+        "is_current": 0,
+        "country_id": 42,
+        "league_id": 237,
+        "start_date": "2021-08-14",
+        "end_date": "2022-05-22"
+    }
+}
