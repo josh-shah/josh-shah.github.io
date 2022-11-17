@@ -66,7 +66,7 @@
         <container class="bcontainer">
 
         
-        <p>The first chart looks at the Stadium Capacity for each team in the Premier League. </p>
+        <div class = "text-hw" >The first chart looks at the Stadium Capacity for each team in the Premier League. </div>
         <div class="chart" id="Chart1"></div>
 
 
@@ -74,7 +74,7 @@
 
 
        
-        <p>My second interactive chart tracks the Daily Bitcoin (BTC) Price in USD from 2016-2021. .</p>
+        <div class = "text-hw" >My second interactive chart tracks the Daily Bitcoin (BTC) Price in USD from 2016-2021. .</div>
         <div class="chart" id="Chart2"> </div>
 
         </container>
@@ -87,7 +87,7 @@
         <div class="chart" id="Chart3"></div>
 
         <div class="chart" id="Chart4"></div>
-        <p>The modified graph demonstrates 1984 was the riskiest year; relative to GDP, the IMF lent the most in 1984.  </p>
+        <div class = "text-hw" >The modified graph demonstrates 1984 was the riskiest year; relative to GDP, the IMF lent the most in 1984. </div>
 
         </container>
 
@@ -102,7 +102,7 @@
         <!--Now the line chart-->
         <div class="chart" id="Chart6"></div>
 
-        <p> I adapted the visualisation from a stacked bar chart to a line chart as it's simpler and easier to follow the breakdowns for each of the 6 teams. </p>
+        <div class = "text-hw" > I adapted the visualisation from a stacked bar chart to a line chart as it's simpler and easier to follow the breakdowns for each of the 6 teams. </div>
 
         </container>
 
@@ -118,8 +118,8 @@
 
         <div class="chart" id="Chart7"></div>
 
-        <p> This chart represents the most expensive football transfers of all time (until 2021) in € millions.
-            Wikipedia allowed me to scrape data from their website, and their table covered all the details needed for my chart. </p>
+        <div class = "text-hw" > This chart represents the most expensive football transfers of all time (until 2021) in € millions.
+            Wikipedia allowed me to scrape data from their website, and their table covered all the details needed for my chart. </div>
 
         </container>
 
@@ -140,7 +140,28 @@
          
         </div>
         </container>
+    
+        <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 6:</span> Produce 2 maps - A base map, and a chloropleth map.</p>
+        <container class="bcontainer">
+        
+        <div class = "chart" id="chart17"></div>
 
+
+
+
+
+
+        </container>
+        <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 7:</span> Produce 2 charts that support/refute an argument from the Festival of Economics.</p>
+        <container class ="bcontainer">
+            <p>Arthur Turrell, Director of Data Science at ONS, spoke about the importance of Data Literacy, with the ONS offering training to all employees in coding. He claimed Python and R are the two most popular programming languages at ONS. </p>
+         <div class = "chart" id="chart19"></div>
+         <div class = "chart" id="chart20"></div>
+         <div class = "text-hw" >The bar chart highlights the 20 most popular programming languages in 2022, with JavaScript the preferred option. The line chart uses the Tiobe Index to compare the popularity between Python and R, determining Python is the more popular programming language. </div>
+        </container>
+
+    
+    
 
 
 
@@ -170,6 +191,9 @@
     var myChart14 = "chart14_nonseasonal.json"
     var myChart15 = "chart15_coffee.json"
     var myChart16 = "chart16_softdrinks.json"
+    var myChart17 = "india.json"
+    var myChart19 = "pop_programminglanguages.json"
+    var myChart20 = "tiobe_index.json"
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
@@ -178,8 +202,8 @@
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
     vegaEmbed('#Chart7', myChart7);
-    vegaEmbed('#Chart8',myChart8);
-    vegaEmbed('#Chart9',myChart9);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
     vegaEmbed('#Chart10',myChart10);
     vegaEmbed('#Chart11',myChart11);
     vegaEmbed('#Chart12',myChart12);
@@ -187,6 +211,9 @@
     vegaEmbed('#Chart14',myChart14);
     vegaEmbed('#Chart15',myChart15);
     vegaEmbed('#Chart16',myChart16);
+    vegaEmbed('#Chart17',myChart17);
+    vegaEmbed('#Chart19',myChart19);
+    vegaEmbed('#Chart20',myChart20);
 </script>
 
 </html>
