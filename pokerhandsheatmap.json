@@ -19,7 +19,7 @@
           {"field": "x", "type": "nominal", "title": "First Card"},
           {"field": "y", "type": "nominal", "title": "Second card"},
           {"field":"mean_heat","type":"quantitative", "title":"Goals (expected)"},
-          {"field": "symbol", "type":"nominal","title": "suited?"}
+          {"field": "symbol", "type":"nominal","title": "suited (s) or unsuited (u)?"}
           ]
   },
   "config": {
