@@ -1,20 +1,29 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/pokerhands.json"},
-    "mark": "rect",
-    "encoding": {
-      "y": {"field": "y", "sort":[], "type": "nominal", "title":"First card"},
-      "x": {"field": "x", "sort":[], "type": "nominal", "title":"Second card", "axis": {"labelAngle":0}},
-      "color": {"aggregate": "mean", "field": "heat"},
-      "tooltip": [
-            {"field": "x", "type": "nominal", "title": "First Card"},
-            {"field": "y", "type": "nominal", "title": "Second card"},
-            {"field":"mean_heat","type":"quantitative", "title":"Goals (expected)"},
-            {"field": "symbol", "type":"nominal","title": "suited?"}
-            ]
-    },
-    "config": {
-      "axis": {"grid": true, "tickBand": "extent"}
-    }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+        "text": "Pre-Flop Poker Hands Calculator",
+        "subtitle":"Probability of winning a hand of Texas Hold 'Em Poker.",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"},
+  "data": {"url": "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/pokerhands.json"},
+  "height": 300,
+    "width": "container",
+  "mark": "rect",
+  "encoding": {
+    "y": {"field": "y", "sort":[], "type": "nominal", "title":"First card"},
+    "x": {"field": "x", "sort":[], "type": "nominal", "title":"Second card", "axis": {"labelAngle":0}},
+    "color": {"aggregate": "mean", "field": "heat"},
+    "tooltip": [
+          {"field": "x", "type": "nominal", "title": "First Card"},
+          {"field": "y", "type": "nominal", "title": "Second card"},
+          {"field":"mean_heat","type":"quantitative", "title":"Goals (expected)"},
+          {"field": "symbol", "type":"nominal","title": "suited?"}
+          ]
+  },
+  "config": {
+    "axis": {"grid": true, "tickBand": "extent"}
   }
+}
   
