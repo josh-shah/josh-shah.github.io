@@ -1,0 +1,20 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/pokerhands.json"},
+    "mark": "rect",
+    "encoding": {
+      "y": {"field": "y", "sort":[], "type": "nominal", "title":"First card"},
+      "x": {"field": "x", "sort":[], "type": "nominal", "title":"Second card", "axis": {"labelAngle":0}},
+      "color": {"aggregate": "mean", "field": "heat"},
+      "tooltip": [
+            {"field": "x", "type": "nominal", "title": "First Card"},
+            {"field": "y", "type": "nominal", "title": "Second card"},
+            {"field":"mean_heat","type":"quantitative", "title":"Goals (expected)"},
+            {"field": "symbol", "type":"nominal","title": "suited?"}
+            ]
+    },
+    "config": {
+      "axis": {"grid": true, "tickBand": "extent"}
+    }
+  }
+  
