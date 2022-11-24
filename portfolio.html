@@ -19,6 +19,11 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 
+<!-- ///////////////////  END HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
 
 
 <body>
@@ -59,8 +64,9 @@
     
 
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <!-- Task 1 container -->
       
-        
+    
         <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 1:</span> Embed 2 charts onto my homepage from the rapidcharts repository.</p>
 
         <container class="bcontainer">
@@ -79,7 +85,7 @@
         </container>
 
         
-
+<!-- Task 2 container -->
         
         <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 2:</span> Replicate a graph from the FT, and then create our own by modifying the chart to improve it.</p>
         <container class="bcontainer">
@@ -90,7 +96,7 @@
         </container>
 
         
-
+<!-- Task 3 container -->
         
         <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 3:</span> Create a chart in VegaLite by converting from a csv file to dictionary format, using an inline data source with more than 100 data points and 3 dimensions.
             Then, a second chart to improve the visualisation.</p>
@@ -105,7 +111,7 @@
 
 
 
-
+<!-- Task 4 container -->
         <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 4:</span> Implementing a Data Scraper of my own.</p>
         <p class="rubric-launch" > The code behind my scraper is available <a class=""textlink href="https://colab.research.google.com/drive/1AJVYPayh26kuQ-aNwk3_gTGV2JfWaKJ_#scrollTo=CPRArWCAqimh"> here</a>. </p>
         <container class="bcontainer">
@@ -118,7 +124,7 @@
         <p class = "bodyText" > This chart represents the most expensive football transfers of all time (until 2021) in € millions.
             Wikipedia allowed me to scrape data from their website, and their table covered all the details needed for my chart. </p>
         </container>
-
+<!-- Task 5 container -->
         <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 5:</span> Use the ONS API to batch download nine different series as JSON files.</p>
         <p class="rubric-launch">The python code behind the ONS Inflation and price indices charts is available <a class="textLink" href="https://colab.research.google.com/drive/1Vh6HYeVsaB_AWh9moVWW-vaGuwmslYKg#scrollTo=FadgE1mJZIfQ"> here</a>.</p> 
         <container class="bcontainer">
@@ -136,7 +142,7 @@
          
         </div>
         </container>
-    
+    <!-- Task 6 container -->
         <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 6:</span> Produce 2 maps - A base map, and a chloropleth map.</p>
         <container class="bcontainer">
         
@@ -146,7 +152,7 @@
 
 
 
-
+<!-- Task 7 container -->
         </container>
         <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 7:</span> Produce 2 charts that support/refute an argument from the Festival of Economics.</p>
         <container class ="bcontainer">
@@ -155,6 +161,14 @@
          <div class = "chart" id="Chart20"></div>
          <p class = "bodyText" >The bar chart highlights JavaScript is the most commonly used programming language (65.36%). The line chart uses the Tiobe Index to compare the popularity between Python and R, determining Python is the more popular programming language. </p>
         </container>
+<!--Task 8 Container-->
+        </container>
+        <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 8:</span> Produce 2 charts that use advanced analytics.</p>
+        <container class ="bcontainer">
+            <div class = "chart" id="Chart21"></div>
+            <div class = "chart" id="Chart22"></div>
+        </container>
+            
 
     
     
@@ -190,6 +204,8 @@
     var myChart17 = "india.json"
     var myChart19 = "pop_programminglanguages.json"
     var myChart20 = "tiobe_index.json"
+    var myChart21 = "xGvsG.json"
+    var myChart22 = "pokerhands.json"
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
@@ -210,6 +226,9 @@
     vegaEmbed('#Chart17',myChart17);
     vegaEmbed('#Chart19',myChart19);
     vegaEmbed('#Chart20',myChart20);
+    vegaEmbed('#Chart21',myChart21);
+    vegaEmbed('#Chart22',myChart22);
+    
 </script>
 
 </html>
