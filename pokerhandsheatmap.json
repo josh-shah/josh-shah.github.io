@@ -14,7 +14,7 @@
   "encoding": {
     "y": {"field": "y", "sort":[], "type": "nominal", "title":"First card"},
     "x": {"field": "x", "sort":[], "type": "nominal", "title":"Second card", "axis": {"labelAngle":0}},
-    "color": {"aggregate": "mean", "field": "heat"},
+    "color": {"aggregate": "mean", "field": "heat", "title": "Probability of winning"},
     "tooltip": [
           {"field": "x", "type": "nominal", "title": "First Card"},
           {"field": "y", "type": "nominal", "title": "Second card"},
