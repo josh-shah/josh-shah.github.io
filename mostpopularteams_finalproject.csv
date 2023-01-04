@@ -22,7 +22,7 @@ Benin,BJ,27,9,21,24,19,27,Manchester United
 Bermuda,BM,27,20,27,16,10,27,Manchester United
 Bhutan,BT,40,10,19,15,16,40,Manchester United
 Bolivia,BO,34,4,20,14,28,34,Manchester United
-Bosnia & Herzegovina,BA,27,12,27,19,15,27,Manchester United
+Bosnia & Herz.,BA,27,12,27,19,15,27,Manchester United
 Botswana,BW,31,15,24,13,17,31,Manchester United
 Brazil,BR,21,9,24,22,24,24,Liverpool
 British Virgin Islands,VG,24,12,30,20,14,30,Liverpool
@@ -36,14 +36,14 @@ Canada,CA,29,15,25,17,14,29,Manchester United
 Cape Verde,CV,29,8,29,11,23,29,Manchester United
 Caribbean Netherlands,BQ,34,9,28,10,19,34,Manchester United
 Cayman Islands,KY,28,18,24,17,13,28,Manchester United
-Central African Republic,CF,18,15,22,22,23,23,Manchester City
+Central African Rep.,CF,18,15,22,22,23,23,Manchester City
 Chad,TD,21,8,27,19,25,27,Liverpool
 Chile,CL,29,8,19,14,30,30,Manchester City
 China,CN,31,16,24,15,14,31,Manchester United
 Colombia,CO,22,5,42,10,21,42,Liverpool
 Comoros,KM,32,7,20,14,27,32,Manchester United
-Congo - Brazzaville,CG,20,11,23,23,23,23,Liverpool
-Congo - Kinshasa,CD,18,12,23,22,25,25,Manchester City
+Congo,CG,20,11,23,23,23,23,Liverpool
+Dem. Rep. Congo,CD,18,12,23,22,25,25,Manchester City
 Costa Rica,CR,32,6,18,14,30,32,Manchester United
 Croatia,HR,23,9,25,27,16,27,Chelsea
 Cuba,CU,40,4,17,15,24,40,Manchester United
@@ -54,16 +54,16 @@ Côte d’Ivoire,CI,23,7,18,35,17,35,Chelsea
 Denmark,DK,27,13,32,14,14,32,Liverpool
 Djibouti,DJ,23,10,32,15,20,32,Liverpool
 Dominica,DM,35,13,15,23,14,35,Manchester United
-Dominican Republic,DO,34,9,20,14,23,34,Manchester United
+Dominican Rep.,DO,34,9,20,14,23,34,Manchester United
 Ecuador,EC,37,6,19,13,25,37,Manchester United
 Egypt,EG,10,5,63,7,15,63,Liverpool
 El Salvador,SV,30,5,19,14,32,32,Manchester City
 Equatorial Guinea,GQ,23,13,19,27,18,27,Chelsea
 Eritrea,ER,30,42,10,11,7,42,Arsenal
 Estonia,EE,27,16,28,15,14,28,Liverpool
-Eswatini,SZ,24,16,25,17,18,25,Liverpool
+eSwatini,SZ,24,16,25,17,18,25,Liverpool
 Ethiopia,ET,28,28,19,12,13,28,Manchester United
-Falkland Islands (Islas Malvinas),FK,25,12,51,5,7,51,Liverpool
+Falkland Is.,FK,25,12,51,5,7,51,Liverpool
 Faroe Islands,FO,28,13,39,13,7,39,Liverpool
 Fiji,FJ,40,10,22,14,14,40,Manchester United
 Finland,FI,29,13,31,13,14,31,Liverpool
@@ -135,7 +135,7 @@ Mongolia,MN,22,13,25,25,15,25,Liverpool
 Montenegro,ME,25,17,27,14,17,27,Liverpool
 Morocco,MA,23,7,25,22,23,25,Liverpool
 Mozambique,MZ,28,9,23,16,24,28,Manchester United
-Myanmar (Burma),MM,46,15,16,12,11,46,Manchester United
+Myanmar,MM,46,15,16,12,11,46,Manchester United
 Namibia,NA,29,20,20,18,13,29,Manchester United
 Nepal,NP,40,9,19,13,19,40,Manchester United
 Netherlands,NL,28,12,31,14,15,31,Liverpool
@@ -173,11 +173,11 @@ Singapore,SG,35,15,33,9,8,35,Manchester United
 Sint Maarten,SX,27,13,28,17,15,28,Liverpool
 Slovakia,SK,32,11,30,14,13,32,Manchester United
 Slovenia,SI,27,12,26,18,17,27,Manchester United
-Solomon Islands,SB,32,8,23,18,19,32,Manchester United
-Somalia,SO,20,14,31,15,20,31,Liverpool
+Solomon Is.,SB,32,8,23,18,19,32,Manchester United
+Somaliland,SO,20,14,31,15,20,31,Liverpool
 South Africa,ZA,30,12,26,14,18,30,Manchester United
 South Korea,KR,23,19,24,17,17,30,Tottenham Hotspur
-South Sudan,SS,25,25,15,21,14,25,Manchester United
+S. Sudan,SS,25,25,15,21,14,25,Manchester United
 Spain,ES,19,7,23,19,32,32,Manchester City
 Sri Lanka,LK,47,10,19,10,14,47,Manchester United
 St. Barthélemy,BL,22,9,25,15,29,29,Manchester City
@@ -208,13 +208,13 @@ Uganda,UG,31,33,13,13,10,33,Arsenal
 Ukraine,UA,22,14,26,15,23,26,Liverpool
 United Arab Emirates,AE,29,13,29,13,16,29,Manchester United
 United Kingdom,GB,27,18,31,12,12,31,Liverpool
-United States,US,24,16,23,21,16,24,Manchester United
+United States of America,US,24,16,23,21,16,24,Manchester United
 Uruguay,UY,27,4,40,9,20,40,Liverpool
 Uzbekistan,UZ,31,9,26,17,17,31,Manchester United
 Vanuatu,VU,32,11,22,18,17,32,Manchester United
 Venezuela,VE,35,5,18,14,28,35,Manchester United
 Vietnam,VN,44,12,15,12,17,44,Manchester United
-Western Sahara,EH,20,6,28,22,24,28,Liverpool
+W. Sahara,EH,20,6,28,22,24,28,Liverpool
 Yemen,YE,22,7,39,12,20,39,Liverpool
 Zambia,ZM,28,13,20,21,18,28,Manchester United
 Zimbabwe,ZW,26,14,22,20,18,26,Manchester United
