@@ -272,14 +272,19 @@ p{
     padding: 1px;
     gap: 10px 10px
   }
-
-
-
-
-
-
-
+  .grid-container {
+    width: 100%;
+    margin-left: 0%;
+    display: block !important;
+    }
 }
+
+
+
+
+
+
+
 
 
 
