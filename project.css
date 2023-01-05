@@ -4,11 +4,12 @@
 /* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppinswght@300&family=Poppins:wght@600");
 
 
 /* Set the background color for my page: */
 body{
-    background-color: #081521;
+    background-color: #130821;
     max-width: 95%;
     margin:auto;
 
