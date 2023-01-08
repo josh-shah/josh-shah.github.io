@@ -50,6 +50,9 @@
       <button onclick="location.href='https://github.com/josh-shah/josh-shah.github.io'">github</button>
     </div>
     </container>   
+<!-- END NAVIGATION BUTTONS->
+
+
 
 
 
@@ -63,7 +66,7 @@
 
     
 
-    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <!- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <!-- Task 1 container -->
       
     
@@ -147,13 +150,15 @@
         <container class="bcontainer">
         
         <div class = "chart" id="Chart17"></div>
-
+        <div class = "chart" id="Chart18"></div>
+        <p class = "bodyText" >The Chloropleth Map highlights which Premier League teams are most popular worldwide using Google Trends data. Manchester United is most popular, followed by Liverpool. </p>
+    </container>
 
 
 
 
 <!-- Task 7 container -->
-        </container>
+        
         <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 7:</span> Produce 2 charts that support/refute an argument from the Festival of Economics.</p>
         <container class ="bcontainer">
             <p class = "bodyText">Arthur Turrell, Director of Data Science at ONS, spoke about the importance of Data Literacy, with the ONS offering training to all employees in coding. He claimed Python and R are the two most popular programming languages at ONS. </p>
@@ -162,18 +167,25 @@
          <p class = "bodyText" >The bar chart highlights JavaScript is the most commonly used programming language (65.36%). The line chart uses the Tiobe Index to compare the popularity between Python and R, determining Python is the more popular programming language. </p>
         </container>
 <!--Task 8 Container-->
-        </container>
         <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 8:</span> Produce 2 charts that use advanced analytics.</p>
         <container class ="bcontainer">
             <div class = "chart" id="Chart21"></div>
             <div class = "chart" id="Chart22"></div>
         </container>
+<!-- Task 9 Container-->
+<p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 9:</span> Apply an Unsupervised Learning Method (I'm choosing K-means Clustering).</p>
+<container class ="bcontainer">
+    <p class = "bodyText" >I wanted to use data on Premier League teams' 5 year rolling expenditures and cluster them based on their eventual League Position.</p>
+    <div class = "chart" id="Chart23"></div>
+    <p class = "bodyText" >The clustering is pretty accurate, with 6 levels formed. Clearly there are outliers for teams who have performed better/worse given their expenditures.</p>
+</container>
 <!--Task 10 Container-->
 <p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Task 10:</span> Apply a Supervised Learning Method (I'm choosing the Classification Technique).</p>
     <container class="bcontainer">
         <p class="bodyText">I used a Logistic Regression to train my model to predict Fantasy Premier League Player Positions in the 22/23 season using 2021/22 data. </p>
         <div class="flourish-embed flourish-survey" data-src="visualisation/12350539"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-        <p class = "bodyText" > The model was 83% accurate on the 21/22 after being trained, but was only 65% accurate on predicting the 22/23 data.  </p>
+        <p class = "bodyText" > The model was 83% accurate on the 21/22 after being trained, but only 65% accurate on predicting the 22/23 data.
+            N.B. 'Group by' predicted and 'Shade by' position for the best visualisation.  </p>
     </container>
     
 
@@ -206,10 +218,12 @@
     var myChart15 = "chart15_coffee.json"
     var myChart16 = "chart16_softdrinks.json"
     var myChart17 = "india.json"
+    var myChart18 = "map_PLpopularteams_project.json"
     var myChart19 = "pop_programminglanguages.json"
     var myChart20 = "tiobe_index.json"
     var myChart21 = "xGvsG.json"
     var myChart22 = "pokerhandsheatmap.json"
+    var myChart23 = "clubs_cluster.json"
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
@@ -228,10 +242,12 @@
     vegaEmbed('#Chart15',myChart15);
     vegaEmbed('#Chart16',myChart16);
     vegaEmbed('#Chart17',myChart17);
+    vegaEmbed('#Chart18',myChart18);
     vegaEmbed('#Chart19',myChart19);
     vegaEmbed('#Chart20',myChart20);
     vegaEmbed('#Chart21',myChart21);
     vegaEmbed('#Chart22',myChart22);
+    vegaEmbed('#Chart23',myChart23);
     
 </script>
 

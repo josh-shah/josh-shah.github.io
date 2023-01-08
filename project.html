@@ -19,6 +19,10 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 
+<!--END HEAD-->
+
+<!--START BODY -->
+
 <body>
 
  <!--Navigation bar and title-->
@@ -44,7 +48,135 @@
     
     </div>
     </container>   
+
+
+
+    <!-- /////////////////// INTRO TEXT //////////////////////////////////// -->
+<h3>Football: <span style="font-weight: 500; color: white;">The Impact of Investment on the Premier League.</span></h3>
+<p class="project-page-text">
+  Manchester City won the 21/22 Premier League Season having spent £868M on players across the past 5 seasons. Meanwhile, Leeds United have spent £277M over the past 5 seasons and only narrowly avoided Relegation. The Premier League is an immensely lucrative league, with its clubs considered valuable, investable assets worldwide.   This project aims to investigate the link between Money and Success in Premier League Football. </p>
+
+<!-- /////////////////// SECTION 1 //////////////////////////////////// -->
+<hr size="5" width="100%" color="white" style="margin-top: 75px;">
+<p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 1: </span>Player Expenditures by Club</p>
+<container class="bcontainer-project">
+
+<!--Section 1 Chart on R&D expenditure by constructor from 2012-2020 -->
+<p class="project-page-text">
+  In the chart below, I used <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/Kmeansclustering_Spendvsrank.ipynb">Python</a> to conduct Unsupervised Machine Learning (K-Means Clustering) to Cluster teams based on their level of Investment.
+  </p>
+<div class="chart-project-section1" id="Chart25"></div>
+<div class="chart-project-section1" id="Chart26"></div>
+<p class="project-page-text">
+  In both the charts above, I used data privately obtained by Transfermarkt, and a csv file from Kaggle. Some of the data was also manually entered into an Excel file. 
+  Transfermarkt regularly change the code needed to scrape their website, which would make this data not very replicable. However, due to their reliability on figures, I am still using their data, which has been cleaned to this file for replicability purposes.
+  </p>
+</container>
+
+<!-- /////////////////// SECTION 2 //////////////////////////////////// -->
+<hr size="5" width="100%" color="white" style="margin-top: 75px;">
+<p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 2: </span>Is there a link between Player Wages and Player Market Value? </p>
+<container class="bcontainer-project">
+
+  <div class="chart-project-section1" id="Chart27"></div>
+  <div class="chart-project-section1" id="Chart28"></div>
+
+
+
+</container>
+
+<!-- /////////////////// SECTION 3 //////////////////////////////////// -->
+<hr size="5" width="100%" color="white" style="margin-top: 75px;">
+
+<p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 3: </span>Extortionate Transfer Fees </p>
+<container class="bcontainer-project">
+
+  <div class="chart-project-section1" id="Chart29"></div>
+
+
+
+</container>
+
+<!-- /////////////////// SECTION 4 //////////////////////////////////// -->
+<hr size="5" width="100%" color="white" style="margin-top: 75px;">
+<p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 4: </span>The Premier League's Global Investment Appeal </p>
+<container class="bcontainer-project">
+
+  <div class="chart-project-section1" id="Chart30"></div>
+  <div class="chart-project-section1" id="Chart31"></div>
+
+
+
+</container>
+
+<!-- /////////////////// SECTION 5 //////////////////////////////////// -->
+<hr size="5" width="100%" color="white" style="margin-top: 75px;">
+<p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 5: </span>Relationship between Stock Prices and Points </p>
+<container class="bcontainer-project">
+
+  <div class="chart-project-section1" id="Chart32"></div>
+
+
+
+
+</container>
+
+<!-- /////////////////// CONCLUSION //////////////////////////////////// -->
+<hr size="5" width="100%" color="white" style="margin-top: 75px;">
+<p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Conclusion: </span>What does this tell us?</p>
+
+<container class="bcontainer-project">
+
+
+  
+</container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
+<script>
+  //Define charts:
+  var myChart25 = "clubs_cluster.json";
+  var myChart26 = "expenditure_season.json";
+  var myChart27 = "MktValuevsWage.json";
+  var myChart28 = "MktValuevsWage_club.json";
+  var myChart29 = "TPIvsUKInflation.json";
+  var myChart30 = "map_PLpopularteams_project.json";
+  var myChart31= "FPL_Value_Ownership.json";
+  var myChart32= "ManUstocks.json";
+
+
+  // Embed charts:
+  vegaEmbed('#Chart25', myChart25);
+  vegaEmbed('#Chart26', myChart26);
+  vegaEmbed('#Chart27', myChart27);
+  vegaEmbed('#Chart28', myChart28);
+  vegaEmbed('#Chart29', myChart29);
+  vegaEmbed('#Chart30', myChart30);
+  vegaEmbed('#Chart31', myChart31);
+  vegaEmbed('#Chart32', myChart32);
+  
+  
+</script>
+  
 
 
 </html>

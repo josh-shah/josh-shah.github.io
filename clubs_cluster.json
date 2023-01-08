@@ -1,0 +1,98 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/clubs_cluster_final.csv"
+    },
+    "width": "container",
+    "height": 300,
+    "title": {
+      "text": "Transfer Expenditure vs PL Season Rank ",
+      "fontSize": 18,
+      "subtitle": "6 clusters based on level of investment, and what teams in each cluster are aiming for. Source: Transfermarkt + Kaggle",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "color": "black"
+    },
+    "mark": {"type": "point", "filled": true, "size": 100, "opacity": 0.8},
+     "selection": {
+      "club": {
+        "type": "single",
+        "fields": ["club"],
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "AFC Bournemouth",
+            "Arsenal FC",
+            "Aston Villa",
+            "Brentford FC",
+            "Brighton & Hove Albion",
+            "Chelsea FC",
+            "Crystal Palace",
+            "Everton FC",
+            "Fulham FC",
+            "Liverpool FC",
+            "Manchester City",
+            "Manchester United",
+            "Newcastle United",
+            "Nottingham Forest",
+            "Southampton FC",
+            "Tottenham Hotspur",
+            "West Ham United",
+            "Wolverhampton Wanderers"
+          ],
+          "name": "Select a Team: "
+        }
+      }
+    },
+   "transform": [{"filter": {"selection": "club"}}],
+    "encoding": {
+      "x": {
+        "field": "pl_seasonfinish",
+        "title": "Season Rank",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "axis": {"grid": false}
+      },
+      "y": {
+        "field": "5year_spend",
+        "title": "5 year rolling spend (£ Millions)",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "axis": {"grid": false}
+      },
+      "tooltip": [
+        {"field": "club", "type": "nominal", "title": "Team"},
+            {"field": "season_id", "type": "nominal", "title": "Season"},
+            {"field": "5year_spend", "type": "nominal", "title": "5 year spend (£ Millions)"},
+            {"field": "pl_seasonfinish", "type": "quantitative", "title": "Season Rank"}
+          ],
+      "color": {
+        "field": "cluster_clubs",
+        "title": "Level of Investment",
+        "type": "nominal",
+        "legend": {
+          "labelExpr": "{'0': 'Low: Aiming to comfortably survive', '2': 'Above Average: Aiming for Europe', '1': 'High: Aiming for Top 4', '3': 'Average: Aiming for Mid-Table','4': 'Very High: Aiming for 1st','5': 'Very Low: Aiming to survive'}[datum.label]"
+        },
+        "scale": {
+          "domain":[
+            "5",
+            "0",
+            "3",
+            "2",
+            "1",
+            "4"
+          ],
+         
+              "range": [
+                "#EF0107",
+                "orange",
+                "#FBE122",
+                "#4fc3f7",
+                "#90EE90",
+                "green"
+              ]
+            }
+      }
+    }
+  }

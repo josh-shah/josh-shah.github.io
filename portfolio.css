@@ -38,7 +38,7 @@ body{
   color: white;
   margin-bottom: -22px;
   margin-top: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 21px;
   font-weight: lighter;
   text-align: center;
@@ -60,7 +60,7 @@ body{
 }
 
 header {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -83,7 +83,7 @@ h3 {
   color: rgb(19, 143, 242);
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
@@ -91,7 +91,7 @@ p{
   color: rgb(19, 143, 242); 
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 

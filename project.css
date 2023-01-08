@@ -9,7 +9,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: #130821;
+    background-color:  #081521;
     max-width: 95%;
     margin:auto;
 
@@ -38,7 +38,7 @@ body{
   color: white;
   margin-bottom: -22px;
   margin-top: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 21px;
   font-weight: lighter;
   text-align: center;
@@ -60,7 +60,7 @@ body{
 }
 
 header {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -83,7 +83,7 @@ h3 {
   color: rgb(19, 143, 242);
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
@@ -91,7 +91,7 @@ p{
   color: rgb(19, 143, 242); 
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
@@ -257,6 +257,12 @@ p{
     gap: 10px 10px
   }
 
+  .bcontainer-project {
+    border-style: none;
+    padding: 1px;
+    gap: 10px 10px
+  }
+
 
 
 
@@ -266,9 +272,38 @@ p{
 }
 
 
+.project-page-text {
+  color: white;
+  margin-bottom: -22px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+  text-align: none;
+}
 
-    /* hr is just a horizontal line breaking the page up*/
-        /* if i wanted to add a box around this text i could use
-    padding: 10px 10px 10px 10px; 
-    border-style: solid;
-    border-width:2px; */
+.bcontainer-project {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 30px 30px;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: white;
+  padding: 30px;
+  border-radius: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.chart-project-section1 {
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+  transition: border-radius 400ms, flex-grow 1000ms, box-shadow 1s;
+  width: 75%;
+  min-width: 350px;
+}
