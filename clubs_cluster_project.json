@@ -8,7 +8,7 @@
     "title": {
       "text": "Transfer Expenditure vs League Position",
       "fontSize": 18,
-      "subtitle": [ "6 clusters based on level of investment.", "Source: Transfermarkt + Kaggle"],
+      "subtitle": [ "Figure 1: 6 clusters based on investment level.", "Source: Transfermarkt + Kaggle"],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 12,
       "color": "black"

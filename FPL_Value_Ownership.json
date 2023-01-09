@@ -6,11 +6,13 @@
         "Value vs Ownership (%)"
       ],
       "subtitle": [
+        "Figure 7",
         "Ownership (%) in FPL (x), FPL Points per Million per 90 (y). size by FPL Player Price",
-        "Select a team in the legend to focus"
+        "Select a team in the legend to focus",
+        "Source: Vaastav via Github"
       ],
       "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
+      "subtitleFontSize": 12,
       "anchor": "start",
       "color": "black"
     },

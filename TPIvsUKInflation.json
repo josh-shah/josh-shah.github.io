@@ -3,9 +3,10 @@
     "description": "A simple bar chart with embedded data.",
     "title": {
       "text": "Transfer Price Index (TPI) vs UK Inflation (CPI) 1992-2022",
-      "subtitle": "Rapid increase of Average Transfer Fees (£) in the Premier League vs. CPI , Source: Tomkins Times + Bank of England",
+      "subtitle": [ "Figure 5",
+        "Rapid increase of Average Transfer Fees (£) in the Premier League vs. CPI", "Source: Tomkins Times + Bank of England"],
       "subtitleFontStyle": "italic",
-      "subtitleFontSize": 9,
+      "subtitleFontSize": 12,
       "anchor": "start",
       "color": "black"
     },

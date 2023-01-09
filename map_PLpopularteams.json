@@ -8,7 +8,7 @@
         "text": "Most Popular PL Teams Worldwide",
         
             "fontSize": 18,
-        "subtitle": ["Figure 6: % of search queries for big teams over the past 12 months",
+        "subtitle": ["% of search queries for big teams over the past 12 months",
           "Source: Google Trends"],
         "subtitleFontStyle":"italic",
         "subtitleFontSize":12,

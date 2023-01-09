@@ -3,11 +3,11 @@
     "title": {
       "text": "Premier League Team Expenditure, 2014-2022",
       "fontSize": 18,
-      "subtitle": ["By season - hover over bars for team names.",
+      "subtitle": ["Figure 2: hover over bars for team names.",
       "Source: Transfermarkt"
       ],
       "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
+      "subtitleFontSize": 12,
       "anchor": "start",
       "color": "black"
     },

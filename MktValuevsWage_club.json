@@ -5,12 +5,13 @@
       "text": "Player Market Value vs Wages, Grouped by Club: 2022-23",
       "fontSize":18,
       "subtitle": [
+        "Figure 4",
         "Club's player's total Market Values (bars)",
         "Club's total Weekly Wage Bill (line)",
         "Sources: Capology + Transfermarkt"
       ],
       "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
+      "subtitleFontSize": 12,
       "anchor": "start",
       "color": "black"
     },

@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
       "text": "Manchester United Stock Price vs Points",
-      "subtitle": [ "Stock price of MANU, 2014-2022",
+      "subtitle": [ "Figure 8: Stock price of MANU, 2014-2022",
       "Source: Yahoo Finance"
       ],
       "subtitleFontStyle": "italic",

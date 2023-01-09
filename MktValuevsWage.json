@@ -2,11 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Market Value (£ Millions) vs Weekly Wage (£ 000's)",
-    "subtitle": [ "Click on the icons in the legend to focus in on one club",
+    "subtitle": [ "Figure 3: Click on the icons in the legend to focus in on one club",
+    "Season: 22/23",
     "Source: Capology + Transfermarkt"
     ],
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
+    "subtitleFontSize": 12,
     "anchor": "start",
     "color": "black"
   },
