@@ -68,7 +68,7 @@
 <div class="chart-project-section1" id="Chart25"></div>
 <div class="chart-project-section1" id="Chart26"></div>
 <p class="project-page-text">
-  In both the charts above, I used data privately obtained by Transfermarkt, and a csv file from Kaggle. Some of the data was also manually entered into an Excel file. 
+  In both the charts above, I used data privately obtained by Transfermarkt, and <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/EPLPoints2000_2022.csv">this</a> csv file from Kaggle. Some of the data was also manually entered into an Excel file. 
   Transfermarkt regularly change the code needed to scrape their website, which would make this data not very replicable. However, due to their reliability on figures, I am still using their data, which has been cleaned to this file for replicability purposes.
   </p>
 </container>
@@ -101,9 +101,14 @@
 <hr size="5" width="100%" color="white" style="margin-top: 75px;">
 <p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 4: </span>The Premier League's Global Investment Appeal </p>
 <container class="bcontainer-project">
-
+<p class="project-page-text">The Chloropleth Map highlights which Manchester United and Liverpool are the most popular football teams worldwide. I used the pytrends API package to batch download Google Trends’ search query data on 250 countries. Unfortunately, this presented some challenges: Without the package, I received an error 429 on an attempted loop, despite sleep commands which slowed the loop down. Moreover, countries like North Korea and Somaliland did not have accessible data. </p>
   <div class="chart-project-section1" id="Chart30"></div>
   <div class="chart-project-section1" id="Chart31"></div>
+<p class="project-page-text">Fantasy Premier League is a global game which the PL invests in to increase global engagement. As Manchester United and Liverpool dominate fanbases worldwide, I wanted to investigate whether their players were more sensitive to Ownership changes in the game. Manchester United underperformed in the 21-22 season, so I wanted to see whether their players would present bad value, but still high levels of ownership. </p>
+
+<p class="project-page-text">I chose the Bubble chart because I could alter the sizes of the bubbles based on FPL Player prices. Since a lot of bubbles overlapped, I implemented the ability to select a team in the legend and focus on their bubbles only. Cristiano Ronaldo and Bruno Fernandes, key Manchester United players, clearly presented poor value yet were still owned by around 15% of people who play the game.</p>
+
+<p class="project-page-text">The data was obtained with this code, using this csv file courtesy of Vaastav. I attempted to use the FPL API, but they only have data on the current season. I will run the FPL API at the end of the season using this script and repeat the graph to see whether many players from popular teams present bad value, but high ownership.</p>
 
 
 
@@ -111,11 +116,19 @@
 
 <!-- /////////////////// SECTION 5 //////////////////////////////////// -->
 <hr size="5" width="100%" color="white" style="margin-top: 75px;">
-<p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 5: </span>Relationship between Stock Prices and Points </p>
+<p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 5: </span>Relationship between stock prices and points </p>
 <container class="bcontainer-project">
 
   <div class="chart-project-section1" id="Chart32"></div>
-
+  <p class="project-page-text">
+This data was optained using yfinance - a Python package which accesses the Yahoo Finance API using <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/ManUstocks.ipynb">this</a> code.
+This can be re-run every year to update the dataset with more recent data. 
+Manchester United are the only PL Club with public stock available. 
+I wanted to investigate if Man United's stock prices are indicative of the Club's value and therefore the level of Investment available. 
+This demonstrates a clear correlation between Man United's average stock price and League points 
+(obtained via this <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/EPLPoints2000_2022.csv">csv</a>) for Man United in a year. I have excluded stock prices from 2012 and 2013, since they are outliers in the relationship possibly due to uncertainty surrounding a new stock. I expect this relationship to strengthen as more data is added.
+  
+  </p>
 
 
 
@@ -128,7 +141,7 @@
 <container class="bcontainer-project">
 
 
-  
+
 </container>
 
 

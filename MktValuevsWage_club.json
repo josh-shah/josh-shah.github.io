@@ -35,14 +35,14 @@
     },
     "layer": [
       {
-        "mark": {"opacity": 0.9, "type": "bar", "color": "#0b1d78"},
+        "mark": {"opacity": 1.0, "type": "bar", "color": "rgb(0,67,167)"},
         "encoding": {
           "y": {
             "field": "MktValue",
             "type": "quantitative",
             "scale": {"domain": [0, 1000]},
             "title": "Market Value (£ Millions)",
-            "axis": {"titleColor": "#0b1d78"}
+            "axis": {"titleColor": "rgb(0,67,167)"}
           }
         }
       },
