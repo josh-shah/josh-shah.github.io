@@ -10,7 +10,7 @@
 /* Set the background color for my page: */
 body{
     background-color:  #081521;
-    max-width: 95%;
+    max-width: 90%;
     margin:auto;
 
     animation: fadeIn ease 2s;
