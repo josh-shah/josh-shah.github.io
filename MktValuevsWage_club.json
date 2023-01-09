@@ -2,10 +2,10 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "World Cup Costs",
     "title": {
-      "text": "Player Market Value vs Wages, Grouped by Club: 2022-23",
+      "text": "Market Value vs Wages, by Club",
       "fontSize":18,
       "subtitle": [
-        "Figure 4",
+        "Figure 4: 2022-23",
         "Club's player's total Market Values (bars)",
         "Club's total Weekly Wage Bill (line)",
         "Sources: Capology + Transfermarkt"

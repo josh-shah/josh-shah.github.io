@@ -81,7 +81,7 @@ h2 {
 h3 {
   color: rgb(255, 40, 0);
   color: rgb(19, 143, 242);
-  font-size: 25px;
+  font-size: 45px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -306,4 +306,9 @@ p{
   transition: border-radius 400ms, flex-grow 1000ms, box-shadow 1s;
   width: 75%;
   min-width: 350px;
+}
+
+.chart-project-section1:hover {
+  box-shadow: 0 0 10px 2px rgb(115, 193, 253);
+  transition: box-shadow 1s;
 }

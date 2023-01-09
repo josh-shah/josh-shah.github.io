@@ -29,7 +29,9 @@
         ],
        "color": {
         "field": "Programming Language",
-        "scale": {"range": ["#EF0107", "#034694", "#00B2A9", "#4fc3f7","#FBE122","black"]}
+        "scale": {"range": ["#EF0107", "#034694", "#00B2A9", "#4fc3f7","#FBE122","black"]},
+        "title": "Programming Language",
+        "legend": {"orient": "bottom", "columns": 1, "fillColor": "#FfFfFf"}
       }
     }
   }

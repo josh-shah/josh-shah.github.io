@@ -3,7 +3,7 @@
   
     "title": {
         "text": "Goals Scored vs xG",
-        "subtitle":"Premier League Players Goals Scored vs Expected Goals in the 2021/22 season. Source: Fbref",
+        "subtitle":["Premier League Players Goals Scored vs Expected Goals", "2021/22 season. Source: Fbref"],
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "anchor": "start",
@@ -28,7 +28,9 @@
           ],
          "color": {
           "field": "Team",
-          "scale": {"range": ["#EF0107", "#034694", "#00B2A9", "#4fc3f7","#FBE122", "orange", "purple", "pink", "black"]}
+          "scale": {"range": ["#EF0107", "#034694", "#00B2A9", "#4fc3f7","#FBE122", "orange", "purple", "pink", "black"]},
+          "title": "Team",
+          "legend": {"orient": "bottom", "columns": 1, "fillColor": "#FfFfFf"}
         }
         }
       },

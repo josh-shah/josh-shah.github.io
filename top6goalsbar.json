@@ -3,7 +3,7 @@
     "description": "A simple bar chart with embedded data.",
   "title": {
       "text": "Total Goals Scored by Top 6 EPL Clubs",
-      "subtitle":"Breakdown of goals scored in each season by the current Top 6 EPL Teams from 2002-2003 season to 2021-2022 season. Source: Wikipedia",
+      "subtitle":["Goals scored (season) by Top 6 EPL Teams from 2002-2022.", "Source: Wikipedia"],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
@@ -26,7 +26,9 @@
         ],
        "color": {
         "field": "Team",
-        "scale": {"range": ["#EF0107", "#034694", "#00B2A9", "#4fc3f7","#FBE122","black"]}
+        "scale": {"range": ["#EF0107", "#034694", "#00B2A9", "#4fc3f7","#FBE122","black"]},
+        "title": "Team",
+        "legend": {"orient": "bottom", "columns": 1, "fillColor": "#FfFfFf"}
       }
     }
   }

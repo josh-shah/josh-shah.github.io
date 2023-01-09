@@ -5,11 +5,11 @@
     "height": 350,
 
     "title": {
-        "text": "Most Popular PL Teams Worldwide",
+        "text": "Most Popular PL Teams",
         
             "fontSize": 18,
-        "subtitle": ["% of search queries for big teams over the past 12 months",
-          "Source: Google Trends"],
+            "subtitle": ["% of search queries for Top 6 over the past year",
+            "Source: Google Trends"],
         "subtitleFontStyle":"italic",
         "subtitleFontSize":12,
         "anchor": "start",

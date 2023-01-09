@@ -2,9 +2,9 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple bar chart with embedded data.",
     "title": {
-      "text": "Transfer Price Index (TPI) vs UK Inflation (CPI) 1992-2022",
-      "subtitle": [ "Figure 5",
-        "Rapid increase of Average Transfer Fees (£) in the Premier League vs. CPI", "Source: Tomkins Times + Bank of England"],
+      "text": "Transfer Price Index (TPI) vs CPI",
+      "subtitle": [ "Figure 5: 1992-2022",
+        "Average Transfer Fees (£) in the PL vs UK Inflation", "Source: Tomkins Times + Bank of England"],
       "subtitleFontStyle": "italic",
       "fontSize": 18,
       "subtitleFontSize": 12,
@@ -49,7 +49,7 @@
   
   
     "encoding": {
-      "x": {"field": "Year", "type": "nominal", "axis": {"labelAngle": 90}},
+      "x": {"field": "Year", "type": "nominal", "title":"", "axis": {"labelAngle": 90}},
       "y": {"field": "Value", "type": "quantitative", "title":"Index, Base Year 1992"},
       "tooltip": [
         {"field": "Index", "type": "nominal"},
@@ -63,7 +63,8 @@
             "orange",
             "#00ff85"
           ]
-        }
+        },
+        "legend": {"orient": "bottom", "columns": 1, "fillColor": "#FfFfFf"}
       }
     }
   }
