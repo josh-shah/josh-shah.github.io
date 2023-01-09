@@ -6,6 +6,7 @@
       "subtitle": [ "Figure 5",
         "Rapid increase of Average Transfer Fees (£) in the Premier League vs. CPI", "Source: Tomkins Times + Bank of England"],
       "subtitleFontStyle": "italic",
+      "fontSize": 18,
       "subtitleFontSize": 12,
       "anchor": "start",
       "color": "black"
