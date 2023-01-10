@@ -269,15 +269,54 @@ p{
 }
 
 
+/* Page Fade In */
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
 
 
-
-
-
-
-
-
-
+/* Mobile Friendly */
 
 @media only screen and (max-width: 450px) {
   body {
@@ -304,12 +343,6 @@ p{
     padding: 1px;
     gap: 10px 10px
   }
-
-
-
-
-
-
 
 }
 
