@@ -52,9 +52,11 @@
 
 
     <!-- /////////////////// INTRO TEXT //////////////////////////////////// -->
-<h3>Football: <span style="font-weight: 500; color: white;">The Impact of Investment on the Premier League</span></h3>
+<h3>Football: <span style="font-weight: 500; color: white;">The impact of Investment on the Premier League</span></h3>
 <p class="project-page-text">
-  Manchester City won the 21/22 Premier League Season having spent £868M on players across the past 5 seasons. Meanwhile, Leeds United have spent £277M over the past 5 seasons and only narrowly avoided Relegation. With PL Clubs' income being £4.9 Billion last season, and the Premier League contributing £7.6 Billion to the UK economy in 2020, the league is becoming immensely lucrative. Equally, PL clubs are considered valuable, investable assets worldwide. This project aims to investigate the link between Money and Success in Premier League Football. </p>
+  Manchester City won the 21/22 Premier League season having spent £868M on players in 5 seasons. Meanwhile, Leeds have spent £277M in 5 seasons and only narrowly avoided relegation. With PL Clubs' <a style="color: rgb(19, 143, 242);" href="https://theathletic.com/3516609/2022/08/17/premier-league-revenues-finances-europe/ 
+  ">£4.9 Bn</a> income last season, and the PL contributing £7.6Bn to the UK economy in 2020, the league is immensely lucrative.</p>
+  <p class="project-page-text">This project aims to investigate the link between Money and Success in Premier League Football.</p>
 
 <!-- /////////////////// SECTION 1 //////////////////////////////////// -->
 <hr size="5" width="100%" color="white" style="margin-top: 75px;">
@@ -63,14 +65,15 @@
 
 <!--Section 1 Charts -->
 <p class="project-page-text">
-  In Figure 1, I used <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/Kmeansclustering_Spendvsrank.ipynb">Python</a> to conduct Unsupervised Machine Learning (K-Means Clustering) to Cluster teams based on their level of Investment. The graph indicates a clear relationship between spending and league position, with the bottom left quarter of the graph being optimal; low spending, strong league position. 
+  In Figure 1, I used <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/Kmeansclustering_Spendvsrank.ipynb">Python</a> to conduct Unsupervised Machine Learning (K-Means Clustering) to cluster teams based on investment levels. The graph indicates a clear relationship between spending and league position, with the bottom left quarter of the chart being optimal; low expenditure, strong ranking. 
 </p>
   </p>
 <div class="chart-project-section1" id="Chart25"></div>
 <div class="chart-project-section1" id="Chart26"></div>
 <p class="project-page-text">
-  In Figures 1+2, I used data privately obtained by Transfermarkt, and <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/EPL%20Standings%202000-2022.csv">this</a> csv from Kaggle, which I <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/PROJECTEPLPOINTS.ipynb">cleaned</a> to make <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/EPLPoints2000_2022.csv">this</a> dataset. Some of the data was also manually entered into an Excel file. 
-  Transfermarkt regularly change the code needed to scrape their website, which would make the code hard to replicate. However, due to their reliability on figures, I am still using their raw data, which has been cleaned here.
+  In Figures 1+2, I used and cleaned raw Excel files privately obtained from Transfermarkt for expenditures (some data was also manually entered). 
+  Transfermarkt regularly change the code needed to scrape their website, making the code hard to replicate, but their data is reliable. 
+  I also used Kaggle (<a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/EPL%20Standings%202000-2022.csv">csv</a>) for league rankings, which I <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/PROJECTEPLPOINTS.ipynb">cleaned</a>.
   </p>
 </container>
 
@@ -78,13 +81,13 @@
 <hr size="5" width="100%" color="white" style="margin-top: 75px;">
 <p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 2: </span>Is there a link between Player Wages and Player Market Value? </p>
 <container class="bcontainer-project">
-  <p class="project-page-text">Figure 3 demonstrates a weak relationship between a player market values and their weekly wages. An R-squared of 0.37 suggests that only 37% of the variation in Market Values can be explained by changes in Weekly Wages. There are many other variables, such as age and position, which can impact wages and market values. Since a lot of the datapoints overlap, you can click on the icons in the legend to focus on one club. </p>
+  <p class="project-page-text">Figure 3 demonstrates a weak relationship between player market values and weekly wages. An R<sup>2</sup> of 0.37 suggests only 37% of the variation in Market Values can be explained by changes in wages. (N.B. click on the colour icons to focus by club). </p>
 
-    <p class="project-page-text">The data was obtained through 2 separate sources. Firstly, I used <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/CapologyScrape.ipynb">Python</a> to scrape Capology and obtain wage <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/all_premier-league_2022-2023_last_updated_15112022.csv">data</a> for each team by concatenation. This website was very hard to scrape and then required a lot of <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/CapologyWageDataCleaning.ipynb">cleaning</a> to create <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/capology_clean.csv">this</a>. Secondly, I used Transfermarkt’s estimated market value <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/2022-11-15_Squads_GB1.csv">data</a> which was obtained privately. I then merged these two datasets together, using <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/MKT_VALUEvsWAGESMERGE.ipynb">Colab</a>, which removed any Players we lacked data for in either dataset. For example, there was no wage data for some lower profile summer 2022 transfers.</p>
+    <p class="project-page-text">The data was obtained through 2 sources. Firstly, I used <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/CapologyScrape.ipynb">Python</a> to scrape Capology and obtain wage <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/all_premier-league_2022-2023_last_updated_15112022.csv">data</a> for each team by concatenation. This website was hard to scrape and required extensive <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/CapologyWageDataCleaning.ipynb">cleaning</a> to create <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/capology_clean.csv">this</a>. Secondly, I used Transfermarkt’s estimated market value <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/2022-11-15_Squads_GB1.csv">data</a>, obtained privately. I then merged these two datasets, using <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/MKT_VALUEvsWAGESMERGE.ipynb">Colab</a>, removing any players with missing data (eg. low-profile Summer 2022 transfers).</p>
 <br>
   <div class="chart-project-section1" id="Chart27"></div>
   <div class="chart-project-section1" id="Chart28"></div>
-  <p class="project-page-text">I then grouped this same data by club, see Figure 4, using Excel to investigate whether a club’s total wage bill matches their players’ aggregated market values. Chelsea’s wage line peaks above the bar, which suggests they’re overpaying their players relative to their market values.</p>
+  <p class="project-page-text">Using Excel, I then grouped this data by club (Figure 4), to investigate whether a club’s wage bill matches their players’ aggregated market values. Chelsea’s wage line peaks above the bar, suggesting they’re overpaying players relative to their market values.</p>
 
 
 
@@ -98,7 +101,7 @@
 
   <div class="chart-project-section1" id="Chart29"></div>
 <p class="project-page-text">
-  Figure 5 demonstrates the drastic difference in inflation between the Transfer Price Index (TPI) and UK's Consumer Price Index (CPI). TPI data was privately sourced from Tomkins Times ©, meanwhile CPI data was taken from the Bank of England. I then manually inputted this into Excel due to inconsistencies in site design. 1992 is set as the base year for both Indexes to make their growth more easily comparable.
+  Figure 5 highlights the drastic difference in inflation between the Transfer Price Index (sourced from Tomkins Times ©) and UK's Consumer Price Index (from Bank of England). I manually inputted this into Excel due to inconsistencies in site design. 1992 is set as the base year for both Indexes to make their growth easily comparable.
 </p>
 
 
@@ -108,18 +111,13 @@
 <hr size="5" width="100%" color="white" style="margin-top: 75px;">
 <p class="bodyText" style="font-size: 30px;"><span style="color: rgb(19, 143, 242); font-weight: 700;">Section 4: </span>The Premier League's Global Investment Appeal </p>
 <container class="bcontainer-project">
-<p class="project-page-text">Figure 6 highlights which Manchester United and Liverpool are the most popular football teams worldwide. All countries are unsurprisingly dominated by the 'Top 6' PL teams (see legend). I used the pytrends API package to batch download Google Trends’ search query data on 250 countries using <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/PROJECT_GoogleTrends_WorldPLMap.ipynb">Colab</a>. This code can be rerun at any point and automatically update the Google Trends data. Without the package, I received an 'Error 429' on an <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/GoogleTrends_Error_Loop.ipynb">attempted loop</a>, despite sleep commands which slowed the loop down. Moreover, countries like North Korea and Somaliland did not have accessible data. </p>
+<p class="project-page-text">Figure 6 indicates the 'Top 6' PL teams unsurprisingly dominate the world, with Manchester United and Liverpool being the most popular PL teams worldwide. I used the pytrends API package to batch download Google Trends’ search query data on 250 countries using <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/PROJECT_GoogleTrends_WorldPLMap.ipynb">Colab</a>. This code can be re-run for automatic updates. Without pytrends, I received 'Error 429' on a <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/GoogleTrends_Error_Loop.ipynb">loop</a>, despite inputting sleep commands. Countries like North Korea didn't have accessible data. </p>
 <br>
   <div class="chart-project-section1" id="Chart30"></div>
   <div class="chart-project-section1" id="Chart31"></div>
-<p class="project-page-text">Fantasy Premier League is a global game which the PL invests in to increase global engagement. As Manchester United and Liverpool dominate fanbases worldwide, I wanted to investigate whether their players were more sensitive to Ownership changes in the game. Manchester United underperformed in the 21-22 season, so I tried testing whether their players offer bad value, but still high levels of ownership. </p>
+<p class="project-page-text">The PL invests in Fantasy Premier League, an international game, to increase global engagement. As Manchester United and Liverpool dominate fanbases worldwide, I wanted to investigate the correlation between FPL players' performance and popularity. Manchester United underperformed in the 21-22 season, so I tested whether their players were popular despite offering bad value.</p>
 
-<p class="project-page-text">I chose the Bubble chart because I could alter the sizes of the bubbles based on FPL Player prices. Since many bubbles overlapped, you can select a team in the legend and focus on their bubbles only. Cristiano Ronaldo and Bruno Fernandes, key Manchester United players, clearly presented poor value yet were still owned by around 15% of people who play the game.</p>
-
-<p class="project-page-text">The data used was from Vaastav's Github. I attempted to use the FPL API, but they only have data on the current season.</p>
-
-
-
+<p class="project-page-text">Figure 7 is a bubble chart to enable sizing the bubbles based on FPL player prices; since they overlap, you can focus by team. Cristiano Ronaldo and Bruno Fernandes, key Manchester United players, presented poor value yet were still owned by around 15% of FPL players. I used Vaastav's Github data; the FPL API only has current season data.</p>
 </container>
 
 <!-- /////////////////// SECTION 5 //////////////////////////////////// -->
@@ -129,16 +127,14 @@
 
   <div class="chart-project-section1" id="Chart32"></div>
   <p class="project-page-text">
-This data was obtained using yfinance - a Python package which accesses the Yahoo Finance API using <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/ManUstocks.ipynb">this</a> code.
-This can be re-run every year to update the dataset with more recent data. 
-Manchester United are the only PL Club with public stock available. 
-I wanted to investigate if Man United's stock prices are indicative of the Club's value and therefore the level of Investment available. 
-This demonstrates a clear correlation between Man United's average stock price and League points 
-(obtained via this <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/EPLPoints2000_2022.csv">csv</a>) for Man United in a year. I have excluded stock prices from 2012 and 2013, since they are outliers in the relationship possibly due to uncertainty surrounding a new stock. I expect this relationship to strengthen as more data is added.
+Figure 8's data was retrieved using yfinance - a package which accesses the Yahoo Finance API via <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/ManUstocks.ipynb">Colab</a>.
+This can be re-run annually for updates. 
+Manchester United are the only publicly listed PL Club, and 
+I investigated if their stock prices are indicative of their club value and therefore the level of Investment available. 
+This suggests a clear correlation between Man United's average stock price and league points 
+(<a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/EPLPoints2000_2022.csv">csv</a>), in a year (2012+2013 data excluded as outliers, due to uncertainty surrounding a new stock). I expect this relationship to strengthen as more data is added.
   
   </p>
-
-
 
 </container>
 
@@ -148,9 +144,9 @@ This demonstrates a clear correlation between Man United's average stock price a
 
 <container class="bcontainer-project">
 
-<p class="project-page-text"> Overall, there is a clear link between expenditure and success in the Premier League. Unsurprisingly, the more a team spends, the better they tend to perform. This unfortunately widens the gap between the Top 6 PL teams and the rest of the league, however Newcastle have recently been taken over by motivated Saudi Investors and are already looking to break into the Top 6 this season, which further strengthens the link. However, there are some outliers; Brentford have managed to get mid-table finishes with very little investment. This is possibly due to their data-driven analytics approach which has allowed them to recruit well on a small budget.</p>
-  <p class="project-page-text"> Further work can be done carried out on top of this project to account for Market Values and Wages of players based on their Ages and Positions, or accounting for a Team's history (some clubs have reputable academies who can be integrated into the main team and save money on transfer fees).
- Also, I will run the FPL API at the end of the season using <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/FPL_API.ipynb">this</a> script and repeat the graph to see whether many players from popular teams present bad value, but high ownership.</p>
+<p class="project-page-text"> Overall, there's a clear link between expenditure and success in the Premier League. Unsurprisingly, the more a team spends, the better they tend to perform, thus widening the gap between the Top 6 PL teams and the rest. Newcastle were recently bought by motivated Saudi Investors, already looking to break into the Top 6 this season which reinforces the link. However, there are anomalies; Brentford have managed to get mid-table finishes with little investment, due to their data-driven analytics approachk, allowing them to recruit efficiently.</p>
+  <p class="project-page-text"> Further work can be done to account for Players' market values and wages based on age, position, or a Team's history (some clubs have academies which feed young talent into the team, saving them recruitment costs).
+ Also, I will run the FPL API at the end of the season <a style="color: rgb(19, 143, 242);" href="https://github.com/josh-shah/josh-shah.github.io/blob/main/FPL_API.ipynb">here</a> to see whether players from popular teams present bad value, but high ownership levels.</p>
 
 </container>
 <!-- END CONCLUSION-->
