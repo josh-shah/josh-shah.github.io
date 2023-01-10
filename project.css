@@ -154,6 +154,48 @@ p{
   grid-template-columns: auto auto auto;
 }
 
+/* Project stuff */
+.project-page-text {
+  color: white;
+  margin-bottom: -22px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+  text-align: none;
+}
+
+.bcontainer-project {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 30px 30px;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: white;
+  padding: 30px;
+  border-radius: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.chart-project-section1 {
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+  transition: border-radius 400ms, flex-grow 1000ms, box-shadow 1s;
+  width: 75%;
+  min-width: 350px;
+}
+
+.chart-project-section1:hover {
+  box-shadow: 0 0 10px 2px rgb(115, 193, 253);
+  transition: box-shadow 1s;
+}
+
 
 /* Buttons on navigation bar, taken from https://freefrontend.com/css-buttons/, https://codepen.io/hexagoncircle/pen/wvBmvOG */
 
@@ -271,44 +313,3 @@ p{
 
 }
 
-
-.project-page-text {
-  color: white;
-  margin-bottom: -22px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 21px;
-  font-weight: lighter;
-  text-align: none;
-}
-
-.bcontainer-project {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  gap: 30px 30px;
-  margin-top: 30px;
-  border-style: solid;
-  border-color: white;
-  padding: 30px;
-  border-radius: 25px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.chart-project-section1 {
-  background-color: white;
-  border-style: solid;
-  border-color: white;
-  border-width: 3px;
-  border-radius: 25px;
-  text-align: center;
-  padding: 20px;
-  transition: border-radius 400ms, flex-grow 1000ms, box-shadow 1s;
-  width: 75%;
-  min-width: 350px;
-}
-
-.chart-project-section1:hover {
-  box-shadow: 0 0 10px 2px rgb(115, 193, 253);
-  transition: box-shadow 1s;
-}
