@@ -8,7 +8,9 @@
         "text": "Most Popular PL Teams",
         
             "fontSize": 18,
-        "subtitle": ["Figure 6", "% of search queries for Top 6 over the past year",
+        "subtitle": ["Figure 6",
+         "% of search queries for Top 6 over the past year",
+         "Indicative of Foreign Merchandise Sales",
           "Source: Google Trends"],
         "subtitleFontStyle":"italic",
         "subtitleFontSize":12,
